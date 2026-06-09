@@ -122,7 +122,9 @@ export default function HomePage() {
           </div>
 
           {/* AI 生成器 */}
-          <Generator />
+          <div id="generator">
+            <Generator />
+          </div>
 
           {/* 免费说明 */}
           <p className="text-center text-sm text-gray-400 mt-4">
@@ -255,14 +257,13 @@ export default function HomePage() {
             Your journal is waiting. It doesn't have to be perfect — it just has to start.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <a
-              href="#"
-              onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) }}
+            <Link
+              href="/#generator"
               className="px-8 py-3.5 rounded-full font-semibold text-sm bg-white transition-opacity hover:opacity-90"
               style={{ color: 'var(--forest)' }}
             >
               Generate a Free Prompt
-            </a>
+            </Link>
             <Link
               href="/pricing"
               className="px-8 py-3.5 rounded-full font-semibold text-sm border-2 border-green-400 text-white transition-opacity hover:opacity-90"
