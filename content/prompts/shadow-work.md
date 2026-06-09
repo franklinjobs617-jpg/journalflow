@@ -9,7 +9,9 @@ relatedSlugs: ["self-discovery", "mental-health", "anxiety", "self-love"]
 therapistNote: "Shadow work is the practice of bringing unconscious patterns into conscious awareness. Go at your own pace. If anything brings up strong emotions, please work with a therapist. These prompts are starting points, not substitutes for professional support."
 ---
 
-## Meeting Your Shadow
+Shadow work is the practice of getting honest with the parts of yourself you'd rather not look at — the anger you've suppressed, the patterns you keep repeating, the fears that run quietly in the background of your decisions. It's not comfortable. But it's one of the most powerful things you can do for your own growth. These 100 shadow work journal prompts are designed to help you approach that territory with curiosity rather than judgment. They draw on Jungian psychology and trauma-informed practices, but they're written in accessible language — no jargon, no preachiness. Important note: go at your own pace. Shadow work can surface strong emotions. If anything brings up material that feels too heavy to hold alone, please reach out to a therapist or trusted person. These prompts are a starting point, not a substitute for professional support.
+
+## Shadow Work Journal Prompts: Meeting Your Shadow
 
 1. What's a part of yourself that you never let other people see? What would happen if they did?
 2. What's an emotion you feel most ashamed of? When does it show up?
@@ -37,7 +39,7 @@ therapistNote: "Shadow work is the practice of bringing unconscious patterns int
 24. What are you in denial about?
 25. What part of yourself have you most aggressively tried to change or suppress?
 
-## Patterns & Wounds
+## Shadow Work Journaling Prompts for Patterns and Wounds
 
 26. What pattern keeps showing up in your relationships, no matter who the other person is?
 27. What's your first move when you feel threatened or vulnerable?
@@ -65,7 +67,7 @@ therapistNote: "Shadow work is the practice of bringing unconscious patterns int
 49. What's the thing you're most afraid of becoming?
 50. What part of your healing are you most resistant to, and why?
 
-## Projections & Mirrors
+## Shadow Work Journal Prompts for Projections and Mirrors
 
 51. Who in your life irritates you the most? What is it about them specifically that gets under your skin?
 52. What do you consistently judge in others that you refuse to examine in yourself?
@@ -83,7 +85,7 @@ therapistNote: "Shadow work is the practice of bringing unconscious patterns int
 64. What does the way you respond to other people's success reveal about your relationship with your own worth?
 65. Write about someone who changed you — for better or worse — by being a mirror.
 
-## Integration & Healing
+## Shadow Work Journaling Prompts for Integration and Healing
 
 66. What part of your shadow, if you stopped fighting it, might actually have something to teach you?
 67. What would it mean to accept yourself fully — including the parts you've been ashamed of?

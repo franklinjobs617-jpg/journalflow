@@ -9,7 +9,9 @@ relatedSlugs: ["self-love", "shadow-work", "morning", "mental-health"]
 therapistNote: "Self-discovery is not a project you complete — it's a practice you return to. These prompts are meant to be revisited; your answers will change as you do."
 ---
 
-## Who You Are
+Most people know themselves less well than they think. Not because they're not introspective, but because genuine self-discovery requires slowing down long enough to ask questions you'd usually skip past. These 100 journal prompts for self discovery are designed to help you do that — to look at who you actually are beneath the roles you play, the habits you've formed, and the stories you've been telling about yourself for years. Some prompts will surface things you already knew but hadn't quite said out loud. Others might genuinely surprise you. That's the point. Self-discovery isn't about arriving at a fixed answer — it's about staying curious about the person you're becoming. Return to these prompts over time; your answers will change as you do, and that's worth paying attention to.
+
+## Journal Prompts for Self Discovery: Who You Are
 
 1. If you had to describe yourself without using your job, your relationships, or your achievements, what would you say?
 2. What do you believe about the world that most people around you don't?
@@ -37,7 +39,7 @@ therapistNote: "Self-discovery is not a project you complete — it's a practice
 24. What's something about yourself that has taken you a long time to accept?
 25. What do you need to forgive yourself for in order to move forward?
 
-## What Shapes You
+## Self Discovery Journal Prompts: What Shapes You
 
 26. What's the most formative experience of your life? How has it shaped the way you move through the world?
 27. What did you learn about yourself in your hardest year?
@@ -65,7 +67,7 @@ therapistNote: "Self-discovery is not a project you complete — it's a practice
 49. What has travel, or leaving a familiar place, revealed to you about who you are?
 50. What has your relationship with money or work revealed about your deeper beliefs about safety and worth?
 
-## What You Want
+## Journal Prompts for Self Discovery: What You Want
 
 51. If all paths were equally possible, what would your life look like in five years?
 52. What does success actually mean to you — not the definition you've inherited, but the one that's yours?
@@ -88,7 +90,7 @@ therapistNote: "Self-discovery is not a project you complete — it's a practice
 69. What does a meaningful life look like to you — specifically, in terms of how you spend your time and energy?
 70. What would change in your life if you started treating your own desires as legitimate?
 
-## Growing Into Yourself
+## Self Discovery Journaling Prompts for Growing Into Yourself
 
 71. What aspect of yourself are you still in the process of accepting?
 72. Write about a quality in yourself that you used to see as a flaw and now see differently.

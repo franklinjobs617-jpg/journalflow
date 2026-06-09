@@ -9,7 +9,9 @@ relatedSlugs: ["anxiety", "shadow-work", "self-discovery", "gratitude"]
 therapistNote: "Regular journaling is one of the most accessible forms of emotional processing. These prompts are designed to work alongside — not replace — professional support."
 ---
 
-## Emotional Awareness
+Mental health journaling is one of the most accessible things you can do for yourself — no appointment needed, no right way to do it, just you and an honest page. These 100 journal prompts for mental health are designed to meet you wherever you are: on the hard days when everything feels heavy, on the okay days when you want to stay connected to yourself, and on the better days when you want to understand what made them possible. The prompts draw from evidence-based approaches including CBT and DBT, but they're written in plain language — not clinical, not preachy. Whether you're in therapy, on a healing journey of your own, or just someone who wants to think more clearly about how they're doing, these prompts are a place to start.
+
+## Mental Health Journal Prompts for Emotional Awareness
 
 1. What emotion has been showing up most consistently for you this week? Where do you feel it in your body?
 2. Is there an emotion you've been avoiding or pushing away? What would happen if you let yourself feel it?
@@ -37,7 +39,7 @@ therapistNote: "Regular journaling is one of the most accessible forms of emotio
 24. Are you better at expressing emotions alone (in writing, in private) or with other people? Why?
 25. What's one emotion you've been minimizing that actually deserves more space?
 
-## Thought Patterns & Beliefs
+## Mental Health Journaling Prompts for Thought Patterns
 
 26. What's a thought you have about yourself that you've never questioned?
 27. Write about a belief you hold about yourself that might be getting in the way of your wellbeing.
@@ -65,7 +67,7 @@ therapistNote: "Regular journaling is one of the most accessible forms of emotio
 49. What has anxiety or depression told you that simply isn't true?
 50. Write about a moment when you caught yourself in a thinking pattern and chose something different.
 
-## Relationships & Connection
+## Journal Prompts for Mental Health and Relationships
 
 51. Who in your life truly sees you — not the version you perform, but the real you?
 52. Is there a relationship in your life that consistently drains your mental health?
@@ -88,7 +90,7 @@ therapistNote: "Regular journaling is one of the most accessible forms of emotio
 69. How do you tend to behave in relationships when you're not doing well mentally?
 70. What's one thing you could do this week to invest in a relationship that matters to you?
 
-## Self-Care & Daily Life
+## Mental Health Journal Prompts for Daily Self-Care
 
 71. What does your current self-care routine actually look like — honestly, not aspirationally?
 72. What's the smallest thing you could do today that would be genuinely kind to yourself?
@@ -106,7 +108,7 @@ therapistNote: "Regular journaling is one of the most accessible forms of emotio
 84. What creative outlet, if any, helps you process your emotions? Do you use it enough?
 85. What's the connection between your physical health and your mental health? How do they affect each other?
 
-## Growth & Hope
+## Mental Health Journaling for Growth and Hope
 
 86. What does progress in your mental health journey look like for you? What are the signs?
 87. Write about a hard period in your life that you made it through. What does that say about you?

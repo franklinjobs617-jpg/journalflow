@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Generator from '@/components/Generator'
+import JournalIllustration from '@/components/JournalIllustration'
 
 export const metadata: Metadata = {
   title: 'JournalFlow — AI Journal Prompt Generator',
@@ -38,38 +39,99 @@ const TESTIMONIALS = [
   },
 ]
 
+// 示例 prompts - 轮流展示让用户感知产品价值
+const EXAMPLE_PROMPTS = [
+  {
+    mood: 'Reflective',
+    topic: 'Self-Growth',
+    text: "What's one thing you've been carrying lately that you haven't talked about — not because it's unspeakable, but because you haven't found the right moment? Write about it now.",
+  },
+  {
+    mood: 'Anxious',
+    topic: 'Mental Health',
+    text: "If your anxiety had a shape, a color, and a texture right now, what would they be? What is it trying to protect you from?",
+  },
+  {
+    mood: 'Grateful',
+    topic: 'Gratitude',
+    text: "Think of someone who showed up for you recently in a small way — something they did that they probably didn't think twice about. What did it mean to you?",
+  },
+]
+
 export default function HomePage() {
   return (
     <>
-      {/* Hero + Generator */}
-      <section id="top" className="hero-gradient px-4 sm:px-6 pt-16 pb-20">
-        <div className="max-w-2xl mx-auto text-center mb-10">
-          <div
-            className="inline-block text-xs font-semibold px-3 py-1 rounded-full mb-4 tracking-wide uppercase"
-            style={{ background: 'var(--sage-light)', color: 'var(--forest)' }}
-          >
-            AI-Powered Journal Prompts
+      {/* Hero — 两栏布局：左文字+生成器，右插图 */}
+      <section className="hero-gradient px-4 sm:px-6 pt-12 pb-20">
+        <div className="max-w-6xl mx-auto">
+
+          {/* 大屏两栏 / 小屏单栏 */}
+          <div className="flex flex-col lg:flex-row items-center gap-10 mb-10">
+
+            {/* 左栏：标题 + 示例 prompt */}
+            <div className="flex-1 max-w-xl">
+              <div
+                className="inline-block text-xs font-semibold px-3 py-1 rounded-full mb-5 tracking-wide uppercase"
+                style={{ background: 'var(--sage-light)', color: 'var(--forest)' }}
+              >
+                AI-Powered Journal Prompts
+              </div>
+              <h1 className="font-display text-4xl sm:text-5xl font-bold mb-5 leading-tight" style={{ color: 'var(--ink)' }}>
+                The right words,{' '}
+                <span style={{ color: 'var(--forest)' }}>right when you need them</span>
+              </h1>
+              <p className="text-lg text-gray-500 leading-relaxed mb-8">
+                Tell us how you're feeling. We'll write a journal prompt that actually meets you there —
+                whether you have 5 minutes or a whole evening.
+              </p>
+
+              {/* 示例 prompt 预览卡 */}
+              <div className="mb-6">
+                <p className="text-xs font-semibold uppercase tracking-wide mb-3" style={{ color: 'var(--forest)' }}>
+                  Example prompt
+                </p>
+                <div className="paper-card rounded-2xl p-5">
+                  <div className="flex items-center gap-2 mb-3">
+                    <span
+                      className="text-xs font-medium px-2 py-0.5 rounded-full"
+                      style={{ background: 'var(--sage-light)', color: 'var(--forest)' }}
+                    >
+                      {EXAMPLE_PROMPTS[0].mood}
+                    </span>
+                    <span
+                      className="text-xs font-medium px-2 py-0.5 rounded-full"
+                      style={{ background: 'var(--amber-light)', color: '#7C4A00' }}
+                    >
+                      {EXAMPLE_PROMPTS[0].topic}
+                    </span>
+                  </div>
+                  <p className="font-prose text-gray-700 leading-relaxed text-sm sm:text-base">
+                    "{EXAMPLE_PROMPTS[0].text}"
+                  </p>
+                </div>
+                <p className="text-xs text-gray-400 mt-2 text-center">
+                  ↓ Generate one tailored to you below
+                </p>
+              </div>
+            </div>
+
+            {/* 右栏：手绘日记插图 */}
+            <div className="hidden lg:flex flex-1 items-center justify-center">
+              <JournalIllustration />
+            </div>
           </div>
-          <h1 className="font-display text-4xl sm:text-5xl font-bold mb-4" style={{ color: 'var(--ink)' }}>
-            The right words,{' '}
-            <span style={{ color: 'var(--forest)' }}>right when you need them</span>
-          </h1>
-          <p className="text-lg text-gray-500 max-w-xl mx-auto leading-relaxed">
-            Tell us how you're feeling. We'll write a journal prompt that actually meets you there —
-            whether you have 5 minutes or a whole evening.
+
+          {/* AI 生成器 */}
+          <Generator />
+
+          {/* 免费说明 */}
+          <p className="text-center text-sm text-gray-400 mt-4">
+            3 free generations per day · No account needed ·{' '}
+            <Link href="/pricing" style={{ color: 'var(--forest)' }} className="underline underline-offset-2">
+              Go Pro for unlimited
+            </Link>
           </p>
         </div>
-
-        {/* AI 生成器 */}
-        <Generator />
-
-        {/* 免费说明 */}
-        <p className="text-center text-sm text-gray-400 mt-4">
-          3 free generations per day · No account needed ·{' '}
-          <Link href="/pricing" style={{ color: 'var(--forest)' }} className="underline underline-offset-2">
-            Go Pro for unlimited
-          </Link>
-        </p>
       </section>
 
       {/* 每日 Prompt 横幅 */}
@@ -194,7 +256,8 @@ export default function HomePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
-              href="#top"
+              href="#"
+              onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) }}
               className="px-8 py-3.5 rounded-full font-semibold text-sm bg-white transition-opacity hover:opacity-90"
               style={{ color: 'var(--forest)' }}
             >

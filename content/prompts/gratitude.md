@@ -9,7 +9,9 @@ relatedSlugs: ["morning", "self-love", "self-discovery", "mental-health"]
 therapistNote: "Research consistently shows that gratitude practice can rewire neural pathways toward positivity. These prompts are designed to make that practice feel genuine, not forced."
 ---
 
-## Everyday Gratitude
+There's a difference between listing things you're grateful for and actually feeling gratitude. The first is a habit; the second is a shift. These 100 gratitude journal prompts are designed to help you get to the second kind — the kind that actually changes how you move through your day. They're not about toxic positivity or pretending hard things aren't hard. They're about training your attention: learning to notice what's already there, the people who show up, the small moments that don't make it into highlight reels. Research consistently shows that a genuine gratitude practice rewires how the brain processes daily experience. But it only works if the prompts feel real, not forced. These are written to do exactly that — to help you find something true to be grateful for, even on the days when gratitude feels like a stretch.
+
+## Gratitude Journal Prompts for Everyday Moments
 
 1. What's something small that happened today that you almost didn't notice but are glad existed?
 2. Write about a person in your life who makes the ordinary feel a little brighter. What specifically do they do?
@@ -37,7 +39,7 @@ therapistNote: "Research consistently shows that gratitude practice can rewire n
 24. What's a decision you made in the past that you're grateful for today?
 25. What's one thing your past self did — a choice, a risk, a moment of courage — that you're benefiting from right now?
 
-## Gratitude for People
+## Gratitude Journaling Prompts for the People in Your Life
 
 26. Write about someone who believed in you before you believed in yourself. What did their faith in you feel like?
 27. Who has been there for you during a genuinely hard time? What did they do that mattered most?
@@ -65,7 +67,7 @@ therapistNote: "Research consistently shows that gratitude practice can rewire n
 49. Write about someone you've watched grow and change. What do you appreciate about who they're becoming?
 50. Who deserves a genuine, specific thank-you from you right now?
 
-## Gratitude for Experiences
+## Gratitude Journal Prompts for Meaningful Experiences
 
 51. What's an experience from the past year that, despite being hard, gave you something you needed?
 52. Write about a trip, even a short one, that you still think about. What made it stay with you?
@@ -88,7 +90,7 @@ therapistNote: "Research consistently shows that gratitude practice can rewire n
 69. Write about a moment of unexpected connection — with a person, a place, or even an idea.
 70. What experience taught you the most about yourself?
 
-## Deeper Gratitude
+## Deep Gratitude Journal Prompts for Perspective
 
 71. What's something about your life that would be considered extraordinary by most people's standards, but that you've normalized?
 72. Write about a value you hold — honesty, creativity, compassion — and where it came from.

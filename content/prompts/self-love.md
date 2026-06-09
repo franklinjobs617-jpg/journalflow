@@ -9,7 +9,9 @@ relatedSlugs: ["self-discovery", "gratitude", "morning", "shadow-work"]
 therapistNote: "Self-love isn't a destination — it's a daily practice of choosing to treat yourself with the same kindness you'd offer someone you care about. These prompts help you practice."
 ---
 
-## Starting Where You Are
+Self-love is one of those phrases that gets used so often it starts to lose its meaning. But underneath the Instagram captions, it points to something real and genuinely difficult: the practice of treating yourself with the same kindness, patience, and basic decency you'd extend to someone you care about. These 100 journal prompts for self love are designed to help you build that practice — not as a grand transformation, but as small, daily acts of honesty and compassion toward yourself. They'll help you examine the conditions you've placed on your own worthiness, the ways you speak to yourself when no one's listening, and the gap between how you treat others and how you treat yourself. Some of these prompts will feel uncomfortable. That's usually a sign you're in the right place.
+
+## Journal Prompts for Self Love: Starting Where You Are
 
 1. How would you describe your relationship with yourself right now, honestly — not how it should be, but how it actually is?
 2. When did you last say something genuinely kind to yourself? What was it, and did you believe it?
@@ -32,7 +34,7 @@ therapistNote: "Self-love isn't a destination — it's a daily practice of choos
 19. Write about what it would feel like to be completely at peace with who you are.
 20. What's one thing about yourself that you're learning to make peace with?
 
-## Building Self-Compassion
+## Self Love Journal Prompts for Building Self-Compassion
 
 21. Imagine you're writing a letter to yourself from the perspective of someone who loves you unconditionally. What do they see in you?
 22. What would a compassionate internal voice say on your hardest days?
@@ -55,7 +57,7 @@ therapistNote: "Self-love isn't a destination — it's a daily practice of choos
 39. What's a way you can be gentler with yourself this week — not grand gestures, but small everyday kindness?
 40. What would it feel like to be on your own side?
 
-## Knowing Your Worth
+## Journal Prompts for Self Love and Knowing Your Worth
 
 41. What do you contribute to the lives of the people around you? How often do you let yourself see that?
 42. What are your strengths — not just the ones that are useful to others, but the ones that are genuinely yours?
@@ -78,7 +80,7 @@ therapistNote: "Self-love isn't a destination — it's a daily practice of choos
 59. What does your gut say about your own worth, underneath all the noise?
 60. Write about a version of yourself you're proud of — something you've become that you're glad you became.
 
-## Self-Love in Daily Life
+## Self Love Journaling Prompts for Daily Practice
 
 61. What does self-love actually look like on a regular Tuesday — not in theory, but in practice?
 62. What's one habit in your life that genuinely takes care of you? Are you honoring it?
@@ -101,7 +103,7 @@ therapistNote: "Self-love isn't a destination — it's a daily practice of choos
 79. What would your life feel like if you spent less time criticizing yourself and more time supporting yourself?
 80. Write about what taking yourself seriously looks like in daily life.
 
-## Growing Into Self-Love
+## Journal Prompts for Self Love and Personal Growth
 
 81. What's one step, however small, you've taken toward loving yourself more? What made it possible?
 82. Write about how your relationship with yourself has changed over the last few years.

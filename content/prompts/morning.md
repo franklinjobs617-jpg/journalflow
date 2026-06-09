@@ -9,7 +9,9 @@ relatedSlugs: ["gratitude", "self-discovery", "mental-health", "self-love"]
 therapistNote: "Morning journaling sets the emotional tone of your day. Even 5 minutes of honest writing before the day pulls you in its direction can shift your experience significantly."
 ---
 
-## Quick Morning Check-Ins (5 minutes)
+The first few minutes of the morning are some of the most valuable real estate in your day — before the to-do list takes over, before your phone pulls you in seventeen directions, before the noise starts. Morning journaling is about using that window. These 100 morning journal prompts range from quick 5-minute check-ins to deeper reflections worth sitting with over a slow cup of coffee. Some are practical — helping you set intentions and name what's weighing on you. Others are more open, inviting you to connect with what actually matters before the day decides for you. You don't need to do all of them. Pick one that pulls at you, open your journal, and write. Even five honest minutes in the morning can shift the entire trajectory of your day.
+
+## Morning Journal Prompts for Quick Daily Check-Ins
 
 1. How did you sleep, and how is that showing up in how you feel right now?
 2. What's the first feeling that arrived when you woke up this morning?
@@ -37,7 +39,7 @@ therapistNote: "Morning journaling sets the emotional tone of your day. Even 5 m
 24. What's the quietest, most honest part of you saying this morning?
 25. What's one act of kindness — toward yourself or someone else — you could build into today?
 
-## Setting Intentions
+## Morning Journal Prompts for Setting Daily Intentions
 
 26. What's a value you want to lead with today? How will you express it in a concrete way?
 27. What would make you feel proud of yourself by the end of today?
@@ -65,7 +67,7 @@ therapistNote: "Morning journaling sets the emotional tone of your day. Even 5 m
 49. What would "grace" look like today — for yourself, for the people you interact with?
 50. What's one way you can honor your energy today rather than override it?
 
-## Morning Reflection & Gratitude
+## Morning Journaling Prompts for Gratitude and Reflection
 
 51. Name three things you're grateful for this morning, and write one sentence about why each one matters.
 52. What did yesterday give you that you didn't expect?
@@ -88,7 +90,7 @@ therapistNote: "Morning journaling sets the emotional tone of your day. Even 5 m
 69. Write about one thing in your immediate environment right now that brings you a small, quiet joy.
 70. What's a hope you're carrying into today?
 
-## Deeper Morning Prompts
+## Deep Morning Journal Prompts for Self-Awareness
 
 71. What is your life trying to tell you right now that you've been too busy to hear?
 72. Write about the relationship between your morning and the rest of your day. How does how you start affect how you continue?

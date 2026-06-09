@@ -10,7 +10,9 @@ therapistNote: "Journaling helps children develop emotional vocabulary, process 
 printable: true
 ---
 
-## About Me
+Journaling helps kids develop something that matters far beyond writing skills: the ability to notice and name what's happening inside them. These 100 journal prompts for kids are designed for children ages 6–12 and cover the full range of a child's inner world — from imagination and creativity to friendships, feelings, and what they're proud of. The prompts are written to be genuinely fun and age-appropriate, not therapeutic or heavy. They're perfect for classroom journaling, homeschool writing practice, or a daily habit at home. Teachers will find them easy to use as morning warm-ups or creative writing starters. Parents can use them as conversation-starters over dinner. There are no wrong answers here — just a safe, encouraging space for kids to find their voice.
+
+## Journal Prompts for Kids: All About Me
 
 1. What's your favorite thing about yourself?
 2. If you could have any superpower, what would it be and how would you use it?
@@ -38,7 +40,7 @@ printable: true
 24. What's the funniest thing that ever happened to you?
 25. What's something you believe that you think is really important?
 
-## Feelings & Emotions
+## Kids Journal Prompts for Feelings and Emotions
 
 26. Write about a time you felt really proud of yourself. What happened?
 27. What's something that makes you feel nervous, and how do you handle it?
@@ -66,7 +68,7 @@ printable: true
 49. What's something you're still learning to do that feels hard? What helps you keep going?
 50. Write about a time you were really surprised. Was it a good surprise or a tricky one?
 
-## Imagination & Creativity
+## Journal Prompts for Kids: Imagination and Creativity
 
 51. Invent a new holiday. What is it called, how do you celebrate it, and when does it happen?
 52. If you could talk to any animal, what would you ask it?
@@ -94,7 +96,7 @@ printable: true
 74. If you could add one class to your school that doesn't exist yet, what would it be?
 75. Write a short story where the villain ends up becoming the hero.
 
-## My World
+## Journaling Prompts for Kids: My World and Community
 
 76. Write about your best friend. What makes them such a good friend?
 77. What's your favorite place in your home? What do you love about it?

@@ -9,7 +9,9 @@ relatedSlugs: ["mental-health", "shadow-work", "self-love", "morning"]
 therapistNote: "These prompts draw from Cognitive Behavioral Therapy (CBT) and mindfulness practices. They're especially helpful for identifying thought patterns and finding grounding."
 ---
 
-## Understanding Your Anxiety
+Anxiety has a way of making the inside of your head feel like the loudest place on earth. Journaling won't make it disappear — but it gives you somewhere to put it. These 100 journal prompts for anxiety are designed to help you do exactly that: slow down enough to look at what's happening inside, understand your triggers, and find small footholds of calm. Some prompts will feel easy. Others might stir something up. Go at your own pace, and remember — there's no wrong way to write. If you're working with a therapist, these prompts pair well with CBT and mindfulness practices. If you're not, they're a gentle starting point for building self-awareness on your own terms.
+
+## Journal Prompts for Anxiety: Understanding Your Triggers
 
 1. What does anxiety feel like in your body right now? Where do you feel it most — your chest, your stomach, your shoulders?
 2. If your anxiety had a voice, what would it be saying to you today?
@@ -37,7 +39,7 @@ therapistNote: "These prompts draw from Cognitive Behavioral Therapy (CBT) and m
 24. Write about the last time you felt genuinely calm. What was different about that moment?
 25. What do you need most right now that you're not giving yourself?
 
-## Finding Calm in the Moment
+## Anxiety Journaling Prompts for Finding Calm
 
 26. Describe five things you can see right now. Really look at them — their shapes, their shadows, their details.
 27. What's one small thing that made you feel okay today, even if everything else felt hard?
@@ -65,7 +67,7 @@ therapistNote: "These prompts draw from Cognitive Behavioral Therapy (CBT) and m
 49. What does "resting" look like for you — genuinely resting, not just lying there still worrying?
 50. What's one boundary you could set this week that would make your nervous system a little less activated?
 
-## Daily Check-Ins
+## Daily Anxiety Journal Prompts for Check-Ins
 
 51. On a scale of 1–10, how anxious do you feel today? What's contributing to that number?
 52. What's the biggest thing weighing on your mind this morning?
@@ -93,7 +95,7 @@ therapistNote: "These prompts draw from Cognitive Behavioral Therapy (CBT) and m
 74. What does "taking it one day at a time" actually look like in your life right now?
 75. How would you describe your inner weather forecast for today?
 
-## Growth & Recovery
+## Journal Prompts for Anxiety Recovery and Growth
 
 76. Looking back at a time you were deeply anxious — what do you know now that you wish you'd known then?
 77. How has anxiety shaped the person you are today? What has it taught you, even if the lessons were hard?
