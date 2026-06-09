@@ -121,24 +121,23 @@ export default function DailyPage() {
         <p className="text-sm text-gray-500 mb-5 max-w-md mx-auto">
           A new prompt every morning, delivered quietly to your inbox. No noise, just one question worth sitting with.
         </p>
-        <form
-          className="flex flex-col sm:flex-row gap-2 max-w-sm mx-auto"
-          onSubmit={(e) => e.preventDefault()}
-        >
+        <div className="flex flex-col sm:flex-row gap-2 max-w-sm mx-auto">
           <input
             type="email"
             placeholder="your@email.com"
+            disabled
             className="flex-1 px-4 py-3 rounded-full border border-green-200 text-sm outline-none focus:border-green-400"
             style={{ background: '#fff' }}
           />
           <button
-            type="submit"
-            className="px-5 py-3 rounded-full text-white text-sm font-semibold whitespace-nowrap"
+            type="button"
+            disabled
+            className="px-5 py-3 rounded-full text-white text-sm font-semibold whitespace-nowrap opacity-70 cursor-not-allowed"
             style={{ background: 'var(--forest)' }}
           >
-            Subscribe Free
+            Coming Soon
           </button>
-        </form>
+        </div>
         <p className="text-xs text-gray-400 mt-3">No spam. Unsubscribe anytime.</p>
       </div>
     </div>

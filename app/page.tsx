@@ -42,7 +42,7 @@ export default function HomePage() {
   return (
     <>
       {/* Hero + Generator */}
-      <section className="hero-gradient px-4 sm:px-6 pt-16 pb-20">
+      <section id="top" className="hero-gradient px-4 sm:px-6 pt-16 pb-20">
         <div className="max-w-2xl mx-auto text-center mb-10">
           <div
             className="inline-block text-xs font-semibold px-3 py-1 rounded-full mb-4 tracking-wide uppercase"
@@ -194,8 +194,7 @@ export default function HomePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
-              href="#"
-              onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) }}
+              href="#top"
               className="px-8 py-3.5 rounded-full font-semibold text-sm bg-white transition-opacity hover:opacity-90"
               style={{ color: 'var(--forest)' }}
             >
