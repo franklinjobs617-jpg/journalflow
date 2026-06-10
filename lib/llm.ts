@@ -1,5 +1,5 @@
-// LLM API 封装 - 支持 OpenAI / Anthropic / 第三方平台
-// 在 Vercel 环境变量中配置对应的 Key 即可切换供应商
+//
+//
 
 export interface GeneratePromptParams {
   mood: string
@@ -39,7 +39,7 @@ ${depthGuide}
 Return ONLY the journal prompt itself — no introduction, no label, no explanation. Just the prompt, written directly to the reader (use "you" or "your").`
 }
 
-// OpenAI 实现
+//
 async function generateWithOpenAI(params: GeneratePromptParams): Promise<ReadableStream> {
   const response = await fetch('https://api.openai.com/v1/chat/completions', {
     method: 'POST',
@@ -66,7 +66,7 @@ async function generateWithOpenAI(params: GeneratePromptParams): Promise<Readabl
   return response.body!
 }
 
-// Anthropic 实现
+//
 async function generateWithAnthropic(params: GeneratePromptParams): Promise<ReadableStream> {
   const response = await fetch('https://api.anthropic.com/v1/messages', {
     method: 'POST',
@@ -91,7 +91,7 @@ async function generateWithAnthropic(params: GeneratePromptParams): Promise<Read
   return response.body!
 }
 
-// 主入口 - 自动根据环境变量选择供应商
+//
 export async function generatePromptStream(
   params: GeneratePromptParams
 ): Promise<ReadableStream> {
@@ -103,7 +103,7 @@ export async function generatePromptStream(
     return generateWithAnthropic(params)
   }
 
-  // 第三方平台（兼容 OpenAI 格式）
+  //
   if (process.env.LLM_API_KEY && process.env.LLM_API_BASE_URL) {
     const response = await fetch(`${process.env.LLM_API_BASE_URL}/chat/completions`, {
       method: 'POST',

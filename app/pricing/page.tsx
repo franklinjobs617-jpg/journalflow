@@ -78,7 +78,7 @@ export default function PricingPage() {
         </p>
       </div>
 
-      {/* Generator 示例展示 */}
+      {/* */}
       <div className="mb-14 rounded-2xl overflow-hidden border border-green-100">
         <div className="px-6 py-4 border-b border-green-100" style={{ background: 'var(--sage-light)' }}>
           <p className="text-sm font-semibold" style={{ color: 'var(--forest)' }}>
@@ -191,7 +191,7 @@ export default function PricingPage() {
         </div>
       </div>
 
-      {/* 谁最需要 Pro */}
+      {/* */}
       <div className="mb-16">
         <h2 className="font-display text-2xl font-bold text-center mb-8" style={{ color: 'var(--ink)' }}>
           Who gets the most out of Pro?

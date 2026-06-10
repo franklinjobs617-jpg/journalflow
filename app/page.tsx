@@ -43,7 +43,7 @@ const TESTIMONIALS = [
   },
 ]
 
-// 示例 prompts - 轮流展示让用户感知产品价值
+//
 const EXAMPLE_PROMPTS = [
   {
     mood: 'Reflective',
@@ -65,14 +65,14 @@ const EXAMPLE_PROMPTS = [
 export default function HomePage() {
   return (
     <>
-      {/* Hero — 两栏布局：左文字+生成器，右插图 */}
+      {/* Hero section */}
       <section className="hero-gradient px-4 sm:px-6 pt-12 pb-20">
         <div className="max-w-6xl mx-auto">
 
-          {/* 大屏两栏 / 小屏单栏 */}
+          {/* Two columns on large, single on mobile */}
           <div className="flex flex-col lg:flex-row items-center gap-10 mb-10">
 
-            {/* 左栏：标题 + 示例 prompt */}
+            {/* Left column */}
             <div className="flex-1 max-w-xl">
               <div
                 className="inline-block text-xs font-semibold px-3 py-1 rounded-full mb-5 tracking-wide uppercase"
@@ -89,7 +89,7 @@ export default function HomePage() {
                 whether you have 5 minutes or a whole evening.
               </p>
 
-              {/* 示例 prompt 预览卡 */}
+              {/* Example prompt card */}
               <div className="mb-6">
                 <p className="text-xs font-semibold uppercase tracking-wide mb-3" style={{ color: 'var(--forest)' }}>
                   Example prompt
@@ -119,18 +119,18 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* 右栏：手绘日记插图 */}
+            {/* Right column illustration */}
             <div className="hidden lg:flex flex-1 items-center justify-center">
               <JournalIllustration />
             </div>
           </div>
 
-          {/* AI 生成器 */}
+          {/* AI Generator */}
           <div id="generator">
             <Generator />
           </div>
 
-          {/* 免费说明 */}
+          {/* Free tier note */}
           <p className="text-center text-sm text-gray-400 mt-4">
             3 free AI prompts per day · No account needed ·{' '}
             <Link href="/pricing" style={{ color: 'var(--forest)' }} className="underline underline-offset-2">
@@ -140,7 +140,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 每日 Prompt 横幅 */}
+      {/* Daily prompt banner */}
       <section className="py-8 px-4" style={{ background: 'var(--sage-light)' }}>
         <div className="max-w-2xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div>
@@ -161,7 +161,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 主题库 */}
+      {/* Topic grid */}
       <section className="py-16 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-10">
@@ -204,7 +204,7 @@ export default function HomePage() {
       </section>
 
 
-      {/* 如何使用 — 3步演示 */}
+      {/* How it works */}
       <section className="py-16 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
@@ -248,7 +248,7 @@ export default function HomePage() {
             ))}
           </div>
 
-          {/* Before/After 对比 */}
+          {/* Before After comparison */}
           <div className="rounded-2xl overflow-hidden border border-green-100">
             <div className="grid grid-cols-1 sm:grid-cols-2">
               <div className="p-6" style={{ background: '#F9F9F9' }}>
@@ -276,7 +276,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 为什么选我们 */}
+      {/* Why us */}
       <section className="py-16 px-4 sm:px-6" style={{ background: 'var(--sage-light)' }}>
         <div className="max-w-4xl mx-auto">
           <h2 className="font-display text-3xl font-bold text-center mb-12" style={{ color: 'var(--ink)' }}>
@@ -310,7 +310,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 社会证明 */}
+      {/* Testimonials */}
       <section className="py-16 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto">
           <h2 className="font-display text-2xl font-bold text-center mb-10" style={{ color: 'var(--ink)' }}>
@@ -330,7 +330,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 底部 CTA */}
+      {/* Bottom CTA */}
       <section className="py-16 px-4 text-center" style={{ background: 'var(--forest)' }}>
         <div className="max-w-xl mx-auto">
           <h2 className="font-display text-3xl font-bold text-white mb-4">

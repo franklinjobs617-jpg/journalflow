@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 
-// 每个主题的专属视觉配置
+//
 const THEME_CONFIG: Record<string, {
   bg: string
   accent: string
@@ -204,16 +204,16 @@ export default function PromptCard({ prompt, slug, index }: PromptCardProps) {
         flexShrink: 0,
       }}
     >
-      {/* 顶部装饰条 */}
+      {/* */}
       <div
         className="h-1.5 w-full"
         style={{ background: theme.accent }}
       />
 
-      {/* 内容区 */}
+      {/* */}
       <div className="flex flex-col flex-1 p-5 justify-between">
 
-        {/* 顶部：品牌 + 主题标签 */}
+        {/* */}
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center gap-1.5">
             <span className="text-base">{theme.emoji}</span>
@@ -235,7 +235,7 @@ export default function PromptCard({ prompt, slug, index }: PromptCardProps) {
           </span>
         </div>
 
-        {/* Prompt 文字 - 核心内容 */}
+        {/* */}
         <div className="flex-1 flex items-center">
           <blockquote
             className="font-prose leading-relaxed"
@@ -249,7 +249,7 @@ export default function PromptCard({ prompt, slug, index }: PromptCardProps) {
           </blockquote>
         </div>
 
-        {/* 装饰元素 */}
+        {/* */}
         <div
           className="text-right text-2xl opacity-20 my-3 select-none"
           aria-hidden="true"
@@ -257,7 +257,7 @@ export default function PromptCard({ prompt, slug, index }: PromptCardProps) {
           {theme.decoration}
         </div>
 
-        {/* 底部：品牌水印 + 操作按钮 */}
+        {/* */}
         <div className="flex items-center justify-between mt-2">
           <div>
             <p
@@ -288,7 +288,7 @@ export default function PromptCard({ prompt, slug, index }: PromptCardProps) {
         </div>
       </div>
 
-      {/* 底部装饰条 */}
+      {/* */}
       <div
         className="h-1 w-full opacity-40"
         style={{ background: theme.accent }}
@@ -297,7 +297,7 @@ export default function PromptCard({ prompt, slug, index }: PromptCardProps) {
   )
 }
 
-// 批量展示组件 - 在主题页底部使用
+//
 interface PromptCardsGridProps {
   prompts: string[]
   slug: string
@@ -305,7 +305,7 @@ interface PromptCardsGridProps {
 }
 
 export function PromptCardsGrid({ prompts, slug, title }: PromptCardsGridProps) {
-  // 精选5张最有代表性的 prompt（第1、25、50、75、100条）
+  //
   const featured = [
     prompts[0],
     prompts[Math.floor(prompts.length * 0.25)],
@@ -316,7 +316,7 @@ export function PromptCardsGrid({ prompts, slug, title }: PromptCardsGridProps) 
 
   return (
     <section className="mt-12 mb-8">
-      {/* 区块标题 */}
+      {/* */}
       <div className="flex items-center justify-between mb-6">
         <div>
           <h2
@@ -329,7 +329,7 @@ export function PromptCardsGrid({ prompts, slug, title }: PromptCardsGridProps) 
             Tap to copy · Perfect for Pinterest & Instagram
           </p>
         </div>
-        {/* Pinterest 分享引导 */}
+        {/* */}
         <a
           href={`https://pinterest.com/pin/create/button/?url=https://journalflow.ai/prompts/${slug}&description=${encodeURIComponent(title + ' — JournalFlow.ai')}`}
           target="_blank"
@@ -344,7 +344,7 @@ export function PromptCardsGrid({ prompts, slug, title }: PromptCardsGridProps) 
         </a>
       </div>
 
-      {/* 卡片网格 - 横向滚动（移动端） / 网格（桌面端） */}
+      {/* */}
       <div className="flex gap-4 overflow-x-auto pb-4 snap-x snap-mandatory" style={{scrollbarWidth:"none"}}>
         {featured.map((prompt, i) => (
           <div key={i} className="snap-start">
@@ -357,7 +357,7 @@ export function PromptCardsGrid({ prompts, slug, title }: PromptCardsGridProps) 
         ))}
       </div>
 
-      {/* 底部说明 */}
+      {/* */}
       <p className="text-xs text-center text-gray-400 mt-4">
         Long-press on mobile to save image · Right-click on desktop to save
       </p>

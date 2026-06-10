@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { generatePromptStream } from '@/lib/llm'
 
-// 限流配置（无用户系统，基于 IP）
+//
 const DAILY_LIMIT_GUEST = 3
 const rateLimitMap = new Map<string, { count: number; resetAt: number }>()
 
@@ -35,7 +35,7 @@ export async function POST(request: NextRequest) {
     const body = await request.json()
     const { mood, topic, ageGroup, depth } = body
 
-    // 参数校验
+    //
     if (!mood || !topic || !ageGroup || !depth) {
       return NextResponse.json(
         { error: 'Missing required parameters' },
@@ -43,7 +43,7 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    // 限流检查
+    //
     const key = getRateLimitKey(request)
     const { allowed, remaining } = checkRateLimit(key)
 
@@ -58,10 +58,10 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    // 调用 LLM
+    //
     const stream = await generatePromptStream({ mood, topic, ageGroup, depth })
 
-    // 返回流式响应
+    //
     return new Response(stream, {
       headers: {
         'Content-Type': 'text/event-stream',
@@ -72,7 +72,7 @@ export async function POST(request: NextRequest) {
   } catch (error) {
     console.error('Generate API error:', error)
 
-    // API Key 未配置时的友好提示
+    //
     if (error instanceof Error && error.message.includes('No LLM API key')) {
       return NextResponse.json(
         {

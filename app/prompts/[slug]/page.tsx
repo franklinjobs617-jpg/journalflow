@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { getPromptPage, getAllPromptMeta, getRelatedPrompts } from '@/lib/mdx'
 import { PromptCardsGrid } from '@/components/PromptCard'
+import DownloadPDFButton from '@/components/DownloadPDFButton'
 
 interface Props {
   params: { slug: string }
@@ -98,7 +99,13 @@ export default async function PromptPage({ params }: Props) {
           <div className="flex flex-wrap items-center gap-4 text-sm text-gray-400">
             <span>📝 {page.promptCount} prompts</span>
             <span>📂 {page.sections.length} sections</span>
-            {page.printable && <span>🖨️ Printable PDF available</span>}
+            <span>🖨️ PDF available</span>
+          </div>
+          <div className="mt-5">
+            <DownloadPDFButton title={page.title} slug={page.slug} />
+            <p className="text-xs text-gray-400 mt-2">
+              Your browser will open a print dialog — choose "Save as PDF" to download.
+            </p>
           </div>
         </div>
       </section>
@@ -173,6 +180,9 @@ export default async function PromptPage({ params }: Props) {
                   .slice(0, sectionIdx)
                   .reduce((acc, s) => acc + s.prompts.length, 0) + promptIdx + 1
 
+                //
+                const showTip = promptIdx === 0
+
                 return (
                   <div key={promptIdx} className="paper-card rounded-xl p-4 pl-7 group">
                     <div className="flex gap-3">
@@ -182,7 +192,17 @@ export default async function PromptPage({ params }: Props) {
                       >
                         {String(globalNum).padStart(2, '0')}
                       </span>
-                      <p className="font-prose text-gray-700 leading-relaxed">{prompt}</p>
+                      <div className="flex-1">
+                        <p className="font-prose text-gray-700 leading-relaxed">{prompt}</p>
+                        {showTip && sectionIdx === 0 && (
+                          <div className="mt-3 pt-3 border-t border-green-50">
+                            <p className="text-xs text-gray-400 leading-relaxed">
+                              <span className="font-semibold" style={{ color: 'var(--forest)' }}>How to use this prompt: </span>
+                              Write it at the top of a fresh page. Set a timer for 10 minutes. Write without stopping — don't edit, don't judge. If you get stuck, write "I don't know what to say about this, but..." and keep going.
+                            </p>
+                          </div>
+                        )}
+                      </div>
                     </div>
                   </div>
                 )
@@ -196,24 +216,27 @@ export default async function PromptPage({ params }: Props) {
                 style={{ background: 'var(--amber-light)', border: '1px solid var(--amber-warm)' }}
               >
                 <p className="font-semibold text-gray-800 mb-1">
-                  Download all {page.promptCount} prompts as a PDF
+                  Want a clean PDF of all {page.promptCount} prompts?
                 </p>
-                <p className="text-sm text-gray-500 mb-3">
-                  Print it out, keep it in your journal, or share it with your clients.
+                <p className="text-sm text-gray-500 mb-1">
+                  Print it. Keep it in your journal. Share it with clients or students.
+                </p>
+                <p className="text-xs text-gray-400 mb-3">
+                  Use the Download PDF button at the top of this page — it works in any browser.
                 </p>
                 <Link
                   href="/pricing"
                   className="inline-block text-sm font-semibold px-5 py-2 rounded-full text-white"
                   style={{ background: 'var(--forest)' }}
                 >
-                  Get Pro Access →
+                  Get Pro for unlimited downloads →
                 </Link>
               </div>
             )}
           </section>
         ))}
 
-        {/* Prompt 卡片展示区 - Pinterest 分享 */}
+        {/* */}
         {(() => {
           const allPrompts = page.sections.flatMap(s => s.prompts)
           return (
@@ -278,6 +301,11 @@ export default async function PromptPage({ params }: Props) {
             </div>
           </section>
         )}
+      </div>
+
+      {/* */}
+      <div className="print-footer">
+        journalflow.ai — Free journal prompts for everyone
       </div>
     </>
   )

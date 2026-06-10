@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://journalflow.ai/daily' },
 }
 
-// 每日 prompt 池 - 根据日期循环
+//
 const DAILY_PROMPTS = [
   "What's one small thing you've been carrying lately that you haven't talked about?",
   "If today had a theme — a single word — what would it be, and why?",

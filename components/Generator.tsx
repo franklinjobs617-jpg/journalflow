@@ -69,7 +69,7 @@ export default function Generator() {
         return
       }
 
-      // 流式读取
+      //
       const reader = res.body?.getReader()
       const decoder = new TextDecoder()
       let fullText = ''
@@ -89,9 +89,9 @@ export default function Generator() {
 
           try {
             const parsed = JSON.parse(data)
-            // OpenAI 格式
+            //
             const delta = parsed.choices?.[0]?.delta?.content
-            // Anthropic 格式
+            //
             const anthropicDelta = parsed.delta?.text
             const text = delta || anthropicDelta || ''
             if (text) {
@@ -99,7 +99,7 @@ export default function Generator() {
               setResult(fullText)
             }
           } catch {
-            // 非 JSON 行，忽略
+            //
           }
         }
       }
@@ -119,9 +119,9 @@ export default function Generator() {
 
   return (
     <div className="w-full max-w-2xl mx-auto">
-      {/* 选择区 */}
+      {/* */}
       <div className="bg-white rounded-2xl border border-green-100 shadow-sm p-6 mb-4">
-        {/* 心情选择 */}
+        {/* */}
         <div className="mb-5">
           <label className="block text-sm font-semibold text-gray-700 mb-2">
             How are you feeling right now?
@@ -144,7 +144,7 @@ export default function Generator() {
           </div>
         </div>
 
-        {/* 主题选择 */}
+        {/* */}
         <div className="mb-5">
           <label className="block text-sm font-semibold text-gray-700 mb-2">
             What do you want to explore?
@@ -167,7 +167,7 @@ export default function Generator() {
           </div>
         </div>
 
-        {/* 年龄 + 深度 */}
+        {/* */}
         <div className="grid grid-cols-2 gap-4 mb-6">
           <div>
             <label className="block text-sm font-semibold text-gray-700 mb-2">Who's journaling?</label>
@@ -210,7 +210,7 @@ export default function Generator() {
           </div>
         </div>
 
-        {/* 生成按钮 */}
+        {/* */}
         <button
           onClick={handleGenerate}
           disabled={loading}
@@ -232,7 +232,7 @@ export default function Generator() {
           )}
         </button>
 
-        {/* 剩余次数提示 */}
+        {/* */}
         {remaining !== null && (
           <p className="text-center text-xs text-gray-400 mt-2">
             {remaining > 0
@@ -249,7 +249,7 @@ export default function Generator() {
         )}
       </div>
 
-      {/* 结果区 */}
+      {/* */}
       {(result || loading) && (
         <div className="paper-card rounded-2xl p-6 mb-4">
           {loading && !result ? (
@@ -281,7 +281,7 @@ export default function Generator() {
         </div>
       )}
 
-      {/* 错误提示 */}
+      {/* */}
       {error && (
         <div className="rounded-xl p-4 mb-4" style={{ background: 'var(--amber-light)', border: '1px solid var(--amber-warm)' }}>
           <p className="text-sm text-gray-700 mb-2">{error.message}</p>
