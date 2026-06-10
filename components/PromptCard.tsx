@@ -150,15 +150,13 @@ export default function PromptCard({ prompt, slug, index }: PromptCardProps) {
   }
 
   return (
-    // Pinterest 最佳比例 2:3，移动端友好
     <div
       className="relative rounded-2xl overflow-hidden flex flex-col"
       style={{
         background: theme.bg,
-        aspectRatio: '2/3',
-        minHeight: '300px',
-        maxWidth: '280px',
-        width: '100%',
+        minHeight: '320px',
+        width: '220px',
+        flexShrink: 0,
       }}
     >
       {/* 顶部装饰条 */}
@@ -198,7 +196,7 @@ export default function PromptCard({ prompt, slug, index }: PromptCardProps) {
             className="font-prose leading-relaxed"
             style={{
               color: theme.textColor,
-              fontSize: prompt.length > 120 ? '0.85rem' : '0.95rem',
+              fontSize: prompt.length > 150 ? '0.78rem' : prompt.length > 100 ? '0.85rem' : '0.92rem',
               lineHeight: '1.65',
             }}
           >
@@ -302,9 +300,9 @@ export function PromptCardsGrid({ prompts, slug, title }: PromptCardsGridProps) 
       </div>
 
       {/* 卡片网格 - 横向滚动（移动端） / 网格（桌面端） */}
-      <div className="flex gap-4 overflow-x-auto pb-4 sm:pb-0 sm:grid sm:grid-cols-3 lg:grid-cols-5 snap-x snap-mandatory">
+      <div className="flex gap-4 overflow-x-auto pb-4 snap-x snap-mandatory" style={{scrollbarWidth:"none"}}>
         {featured.map((prompt, i) => (
-          <div key={i} className="snap-start shrink-0 w-[200px] sm:w-auto">
+          <div key={i} className="snap-start">
             <PromptCard
               prompt={prompt}
               slug={slug}
