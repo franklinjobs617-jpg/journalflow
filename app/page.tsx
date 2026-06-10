@@ -127,13 +127,24 @@ export default function HomePage() {
               &ldquo;What&apos;s one small thing you&apos;ve been carrying lately that you haven&apos;t talked about?&rdquo;
             </p>
           </div>
-          <Link
-            href="/daily"
-            className="shrink-0 text-sm font-semibold px-5 py-2.5 rounded-full text-white whitespace-nowrap"
-            style={{ background: 'var(--forest)' }}
-          >
-            See Daily Prompt
-          </Link>
+          <div className="flex flex-col sm:flex-row gap-2 shrink-0">
+            <Link
+              href="/daily"
+              className="text-sm font-semibold px-5 py-2.5 rounded-full text-white whitespace-nowrap text-center"
+              style={{ background: 'var(--forest)' }}
+            >
+              See Daily Prompt
+            </Link>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSd8rAjZP_4hdW9WkmgexFMVXW6t6rHjae9j6fgaYYWqfDB73w/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm font-semibold px-5 py-2.5 rounded-full whitespace-nowrap text-center border-2 transition-all"
+              style={{ borderColor: 'var(--forest)', color: 'var(--forest)' }}
+            >
+              Get it by Email
+            </a>
+          </div>
         </div>
       </section>
 

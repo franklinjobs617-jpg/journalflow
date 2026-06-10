@@ -123,14 +123,16 @@ export default function DailyPage() {
         </p>
         <div className="max-w-sm mx-auto">
           <a
-            href="mailto:hello@journalflow.ai?subject=Daily%20Prompt%20Subscription"
-            className="block w-full text-center px-5 py-3 rounded-full text-white text-sm font-semibold"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSd8rAjZP_4hdW9WkmgexFMVXW6t6rHjae9j6fgaYYWqfDB73w/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-full text-center px-5 py-3 rounded-full text-white text-sm font-semibold transition-opacity hover:opacity-90"
             style={{ background: 'var(--forest)' }}
           >
-            Subscribe via Email
+            Subscribe Free - Takes 10 Seconds
           </a>
           <p className="text-xs text-gray-400 mt-3 text-center">
-            Send us your email and we will add you to the daily list. No spam, unsubscribe anytime.
+            No spam. One prompt per morning. Unsubscribe anytime.
           </p>
         </div>
       </div>
