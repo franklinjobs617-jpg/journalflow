@@ -11,14 +11,18 @@ export const metadata: Metadata = {
 }
 
 const TOPICS = [
-  { label: 'Anxiety', href: '/prompts/anxiety', emoji: '🌿', desc: '100 prompts' },
-  { label: 'Mental Health', href: '/prompts/mental-health', emoji: '🧠', desc: '100 prompts' },
-  { label: 'Gratitude', href: '/prompts/gratitude', emoji: '🙏', desc: '100 prompts' },
-  { label: 'Self Discovery', href: '/prompts/self-discovery', emoji: '🔍', desc: '100 prompts' },
-  { label: 'Morning', href: '/prompts/morning', emoji: '🌅', desc: '100 prompts' },
-  { label: 'Shadow Work', href: '/prompts/shadow-work', emoji: '🌑', desc: '100 prompts' },
-  { label: 'For Kids', href: '/prompts/kids', emoji: '🌈', desc: '100 prompts' },
-  { label: 'Self Love', href: '/prompts/self-love', emoji: '💛', desc: '100 prompts' },
+  { label: 'Just for Fun', href: '/prompts/fun', emoji: '🎉', desc: '100 prompts', isNew: true },
+  { label: 'For Beginners', href: '/prompts/beginners', emoji: '✏️', desc: '100 prompts', isNew: true },
+  { label: 'For Moms', href: '/prompts/moms', emoji: '🌸', desc: '100 prompts', isNew: true },
+  { label: 'Anxiety', href: '/prompts/anxiety', emoji: '🌿', desc: '100 prompts', isNew: false },
+  { label: 'Mental Health', href: '/prompts/mental-health', emoji: '🧠', desc: '100 prompts', isNew: false },
+  { label: 'Gratitude', href: '/prompts/gratitude', emoji: '🙏', desc: '100 prompts', isNew: false },
+  { label: 'Self Discovery', href: '/prompts/self-discovery', emoji: '🔍', desc: '100 prompts', isNew: false },
+  { label: 'Morning', href: '/prompts/morning', emoji: '🌅', desc: '100 prompts', isNew: false },
+  { label: 'Shadow Work', href: '/prompts/shadow-work', emoji: '🌑', desc: '100 prompts', isNew: false },
+  { label: 'Grief', href: '/prompts/grief', emoji: '🕊️', desc: '100 prompts', isNew: true },
+  { label: 'Burnout', href: '/prompts/burnout', emoji: '🔋', desc: '100 prompts', isNew: true },
+  { label: 'Self Love', href: '/prompts/self-love', emoji: '💛', desc: '100 prompts', isNew: false },
 ]
 
 const TESTIMONIALS = [
@@ -122,9 +126,7 @@ export default function HomePage() {
           </div>
 
           {/* AI 生成器 */}
-          <div id="generator">
-            <Generator />
-          </div>
+          <Generator />
 
           {/* 免费说明 */}
           <p className="text-center text-sm text-gray-400 mt-4">
@@ -165,16 +167,22 @@ export default function HomePage() {
               Explore by topic
             </h2>
             <p className="text-gray-500">
-              Over 800 hand-crafted prompts across the themes that matter most to you.
+              1,500+ hand-crafted prompts across every topic that matters — from deep self-reflection to something a little lighter.
             </p>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-4">
             {TOPICS.map((t) => (
               <Link
                 key={t.href}
                 href={t.href}
-                className="card-hover bg-white rounded-xl p-5 border border-green-50 flex flex-col items-start gap-2"
+                className="card-hover bg-white rounded-xl p-5 border border-green-50 flex flex-col items-start gap-2 relative"
               >
+                {t.isNew && (
+                  <span className="absolute top-3 right-3 text-xs font-bold px-2 py-0.5 rounded-full"
+                    style={{ background: 'var(--amber-light)', color: 'var(--amber-warm)' }}>
+                    New
+                  </span>
+                )}
                 <span className="text-2xl">{t.emoji}</span>
                 <span className="font-semibold text-sm text-gray-800">{t.label}</span>
                 <span className="text-xs text-gray-400">{t.desc}</span>
@@ -257,13 +265,14 @@ export default function HomePage() {
             Your journal is waiting. It doesn't have to be perfect — it just has to start.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <Link
-              href="/#generator"
+            <a
+              href="#"
+              onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) }}
               className="px-8 py-3.5 rounded-full font-semibold text-sm bg-white transition-opacity hover:opacity-90"
               style={{ color: 'var(--forest)' }}
             >
               Generate a Free Prompt
-            </Link>
+            </a>
             <Link
               href="/pricing"
               className="px-8 py-3.5 rounded-full font-semibold text-sm border-2 border-green-400 text-white transition-opacity hover:opacity-90"

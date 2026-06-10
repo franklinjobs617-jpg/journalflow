@@ -9,6 +9,7 @@ const MOODS = [
   { value: 'stuck', label: '😶 Stuck', desc: 'Lost or unclear' },
   { value: 'reflective', label: '🌙 Reflective', desc: 'Thoughtful and calm' },
   { value: 'motivated', label: '🔥 Motivated', desc: 'Ready to grow' },
+  { value: 'playful', label: '😄 Playful', desc: 'Light and fun, no pressure' },
 ]
 
 const TOPICS = [
@@ -18,6 +19,8 @@ const TOPICS = [
   { value: 'creativity', label: '✨ Creativity' },
   { value: 'work and purpose', label: '🎯 Work & Purpose' },
   { value: 'gratitude and joy', label: '☀️ Gratitude' },
+  { value: 'fun and everyday life', label: '🎉 Just for Fun' },
+  { value: 'parenting and family', label: '👨‍👩‍👧 Parenting' },
 ]
 
 const AGE_GROUPS = [

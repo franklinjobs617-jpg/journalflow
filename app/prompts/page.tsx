@@ -18,6 +18,15 @@ const TOPIC_EMOJIS: Record<string, string> = {
   'shadow-work': '🌑',
   kids: '🌈',
   'self-love': '💛',
+  fun: '🎉',
+  beginners: '✏️',
+  moms: '🌸',
+  grief: '🕊️',
+  burnout: '🔋',
+  'middle-school': '📚',
+  'high-school': '🎓',
+  therapy: '🌱',
+  manifestation: '✨',
 }
 
 const CATEGORY_LABELS: Record<string, string> = {
