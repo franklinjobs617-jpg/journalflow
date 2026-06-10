@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { getAllPromptMeta } from '@/lib/mdx'
 
 export const metadata: Metadata = {
-  title: 'Journal Prompts by Topic — 800+ Free Prompts',
+  title: 'Journal Prompts by Topic  -  800+ Free Prompts',
   description:
     'Browse 800+ free journal prompts organized by topic: mental health, anxiety, gratitude, self discovery, shadow work, kids, and more.',
   alternates: { canonical: 'https://journalflow.ai/prompts' },

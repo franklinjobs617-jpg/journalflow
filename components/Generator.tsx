@@ -25,8 +25,8 @@ const TOPICS = [
 
 const AGE_GROUPS = [
   { value: 'adult', label: 'Adult' },
-  { value: 'teen', label: 'Teen (13–18)' },
-  { value: 'kid', label: 'Kid (8–12)' },
+  { value: 'teen', label: 'Teen (13-18)' },
+  { value: 'kid', label: 'Kid (8-12)' },
 ]
 
 const DEPTHS = [
@@ -236,7 +236,7 @@ export default function Generator() {
         {remaining !== null && (
           <p className="text-center text-xs text-gray-400 mt-2">
             {remaining > 0
-              ? `${remaining} free prompt${remaining === 1 ? '' : 's'} left today — Pro gets unlimited`
+              ? `${remaining} free prompt${remaining === 1 ? '' : 's'} left today  -  Pro gets unlimited`
               : (
                 <span>
                   Free limit reached today ·{' '}

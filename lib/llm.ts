@@ -11,7 +11,7 @@ export interface GeneratePromptParams {
 const SYSTEM_PROMPT = `You are a warm, thoughtful journaling guide with a background in psychology and mindfulness. Your role is to create journal prompts that feel like they come from a caring friend who also happens to know a lot about emotional wellbeing.
 
 When writing prompts:
-- Use warm, conversational language — never clinical or robotic
+- Use warm, conversational language  -  never clinical or robotic
 - Be specific enough to be useful, but open enough to allow personal interpretation
 - Acknowledge that journaling can feel vulnerable, and make the reader feel safe
 - Draw on real emotional experiences that people actually go through
@@ -21,8 +21,8 @@ When writing prompts:
 function buildUserMessage(params: GeneratePromptParams): string {
   const depthGuide =
     params.depth === 'quick'
-      ? 'Keep it brief and accessible — something they can answer in 5 minutes.'
-      : 'Make it deeper — something worth sitting with for 15-20 minutes.'
+      ? 'Keep it brief and accessible  -  something they can answer in 5 minutes.'
+      : 'Make it deeper  -  something worth sitting with for 15-20 minutes.'
 
   const ageGuide =
     params.ageGroup === 'kid'
@@ -36,7 +36,7 @@ function buildUserMessage(params: GeneratePromptParams): string {
 ${ageGuide}
 ${depthGuide}
 
-Return ONLY the journal prompt itself — no introduction, no label, no explanation. Just the prompt, written directly to the reader (use "you" or "your").`
+Return ONLY the journal prompt itself  -  no introduction, no label, no explanation. Just the prompt, written directly to the reader (use "you" or "your").`
 }
 
 //

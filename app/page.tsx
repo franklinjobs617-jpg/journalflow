@@ -4,9 +4,9 @@ import Generator from '@/components/Generator'
 import JournalIllustration from '@/components/JournalIllustration'
 
 export const metadata: Metadata = {
-  title: 'JournalFlow — AI Journal Prompt Generator',
+  title: 'JournalFlow - AI Journal Prompt Generator',
   description:
-    'Generate personalized journal prompts with AI. Tailored to your mood, goals, and journaling style. 1000+ prompts for mental health, self-growth, anxiety, gratitude, and more.',
+    'Generate personalized journal prompts with AI. Tailored to your mood, goals, and journaling style. 1700+ prompts for mental health, self-growth, anxiety, gratitude, and more.',
   alternates: { canonical: 'https://journalflow.ai' },
 }
 
@@ -32,7 +32,7 @@ const TESTIMONIALS = [
     role: 'Therapist',
   },
   {
-    text: "I use it every morning. It takes 10 seconds to generate a prompt that keeps me writing for 30 minutes.",
+    text: 'I use it every morning. It takes 10 seconds to generate a prompt that keeps me writing for 30 minutes.',
     author: 'James K.',
     role: 'Daily journaler',
   },
@@ -43,36 +43,18 @@ const TESTIMONIALS = [
   },
 ]
 
-//
-const EXAMPLE_PROMPTS = [
-  {
-    mood: 'Reflective',
-    topic: 'Self-Growth',
-    text: "What's one thing you've been carrying lately that you haven't talked about — not because it's unspeakable, but because you haven't found the right moment? Write about it now.",
-  },
-  {
-    mood: 'Anxious',
-    topic: 'Mental Health',
-    text: "If your anxiety had a shape, a color, and a texture right now, what would they be? What is it trying to protect you from?",
-  },
-  {
-    mood: 'Grateful',
-    topic: 'Gratitude',
-    text: "Think of someone who showed up for you recently in a small way — something they did that they probably didn't think twice about. What did it mean to you?",
-  },
-]
+const EXAMPLE_PROMPT = {
+  mood: 'Reflective',
+  topic: 'Self-Growth',
+  text: "What's one thing you've been carrying lately that you haven't talked about  -  not because it's unspeakable, but because you haven't found the right moment? Write about it now.",
+}
 
 export default function HomePage() {
   return (
     <>
-      {/* Hero section */}
       <section className="hero-gradient px-4 sm:px-6 pt-12 pb-20">
         <div className="max-w-6xl mx-auto">
-
-          {/* Two columns on large, single on mobile */}
           <div className="flex flex-col lg:flex-row items-center gap-10 mb-10">
-
-            {/* Left column */}
             <div className="flex-1 max-w-xl">
               <div
                 className="inline-block text-xs font-semibold px-3 py-1 rounded-full mb-5 tracking-wide uppercase"
@@ -85,14 +67,12 @@ export default function HomePage() {
                 <span style={{ color: 'var(--forest)' }}>right when you need them</span>
               </h1>
               <p className="text-lg text-gray-500 leading-relaxed mb-8">
-                Tell us how you're feeling. We'll write a journal prompt that actually meets you there —
+                Tell us how you are feeling. We will write a journal prompt that actually meets you there,
                 whether you have 5 minutes or a whole evening.
               </p>
-
-              {/* Example prompt card */}
               <div className="mb-6">
                 <p className="text-xs font-semibold uppercase tracking-wide mb-3" style={{ color: 'var(--forest)' }}>
-                  Example prompt
+                  Example output
                 </p>
                 <div className="paper-card rounded-2xl p-5">
                   <div className="flex items-center gap-2 mb-3">
@@ -100,39 +80,35 @@ export default function HomePage() {
                       className="text-xs font-medium px-2 py-0.5 rounded-full"
                       style={{ background: 'var(--sage-light)', color: 'var(--forest)' }}
                     >
-                      {EXAMPLE_PROMPTS[0].mood}
+                      {EXAMPLE_PROMPT.mood}
                     </span>
                     <span
                       className="text-xs font-medium px-2 py-0.5 rounded-full"
                       style={{ background: 'var(--amber-light)', color: '#7C4A00' }}
                     >
-                      {EXAMPLE_PROMPTS[0].topic}
+                      {EXAMPLE_PROMPT.topic}
                     </span>
                   </div>
                   <p className="font-prose text-gray-700 leading-relaxed text-sm sm:text-base">
-                    "{EXAMPLE_PROMPTS[0].text}"
+                    &ldquo;{EXAMPLE_PROMPT.text}&rdquo;
                   </p>
                 </div>
                 <p className="text-xs text-gray-400 mt-2 text-center">
-                  ↓ Generate one tailored to you below
+                  Generate one tailored to you below
                 </p>
               </div>
             </div>
-
-            {/* Right column illustration */}
             <div className="hidden lg:flex flex-1 items-center justify-center">
               <JournalIllustration />
             </div>
           </div>
 
-          {/* AI Generator */}
           <div id="generator">
             <Generator />
           </div>
 
-          {/* Free tier note */}
           <p className="text-center text-sm text-gray-400 mt-4">
-            3 free AI prompts per day · No account needed ·{' '}
+            3 free AI prompts per day &middot; No account needed &middot;{' '}
             <Link href="/pricing" style={{ color: 'var(--forest)' }} className="underline underline-offset-2">
               Go Pro for unlimited
             </Link>
@@ -140,15 +116,14 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Daily prompt banner */}
       <section className="py-8 px-4" style={{ background: 'var(--sage-light)' }}>
         <div className="max-w-2xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div>
             <p className="text-xs font-semibold uppercase tracking-wide mb-1" style={{ color: 'var(--forest)' }}>
-              Today's Prompt
+              Today&apos;s Prompt
             </p>
             <p className="font-prose text-lg text-gray-700 italic">
-              "What's one small thing you've been carrying lately that you haven't talked about?"
+              &ldquo;What&apos;s one small thing you&apos;ve been carrying lately that you haven&apos;t talked about?&rdquo;
             </p>
           </div>
           <Link
@@ -156,12 +131,11 @@ export default function HomePage() {
             className="shrink-0 text-sm font-semibold px-5 py-2.5 rounded-full text-white whitespace-nowrap"
             style={{ background: 'var(--forest)' }}
           >
-            See Daily Prompt →
+            See Daily Prompt
           </Link>
         </div>
       </section>
 
-      {/* Topic grid */}
       <section className="py-16 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-10">
@@ -169,7 +143,7 @@ export default function HomePage() {
               Explore by topic
             </h2>
             <p className="text-gray-500">
-              1,700+ hand-crafted prompts across 17 topics — from deep self-reflection to something a little lighter.
+              1,700+ hand-crafted prompts across 17 topics that matter most to you.
             </p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-4">
@@ -180,8 +154,10 @@ export default function HomePage() {
                 className="card-hover bg-white rounded-xl p-5 border border-green-50 flex flex-col items-start gap-2 relative"
               >
                 {t.isNew && (
-                  <span className="absolute top-3 right-3 text-xs font-bold px-2 py-0.5 rounded-full"
-                    style={{ background: 'var(--amber-light)', color: 'var(--amber-warm)' }}>
+                  <span
+                    className="absolute top-3 right-3 text-xs font-bold px-2 py-0.5 rounded-full"
+                    style={{ background: 'var(--amber-light)', color: 'var(--amber-warm)' }}
+                  >
                     New
                   </span>
                 )}
@@ -197,14 +173,12 @@ export default function HomePage() {
               className="text-sm font-semibold underline underline-offset-4"
               style={{ color: 'var(--forest)' }}
             >
-              View all topics →
+              View all topics
             </Link>
           </div>
         </div>
       </section>
 
-
-      {/* How it works */}
       <section className="py-16 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
@@ -219,20 +193,20 @@ export default function HomePage() {
             {[
               {
                 step: '01',
-                title: 'Tell us how you're feeling',
+                title: "Tell us how you're feeling",
                 desc: 'Choose your mood, topic, and how deep you want to go. Anxious? Playful? Burned out? We start where you are.',
                 example: 'Feeling: Anxious · Topic: Mental Health · Depth: Deep',
               },
               {
                 step: '02',
                 title: 'Get your personalized prompt',
-                desc: 'Our AI writes a prompt tailored to exactly what you selected — not generic, not pulled from a list.',
-                example: '"What does your anxiety try to protect you from — and is it working?"',
+                desc: 'Our AI writes a prompt tailored to exactly what you selected, not generic, not pulled from a list.',
+                example: '"What does your anxiety try to protect you from, and is it working?"',
               },
               {
                 step: '03',
                 title: 'Open your journal and write',
-                desc: 'Copy the prompt, set a timer for 10 minutes, and just write. No editing, no judgment — just honest words.',
+                desc: 'Copy the prompt, set a timer for 10 minutes, and just write. No editing, no judgment.',
                 example: 'Pro tip: write the prompt at the top of the page first.',
               },
             ].map((s) => (
@@ -240,22 +214,25 @@ export default function HomePage() {
                 <div className="text-5xl font-bold mb-4 opacity-10" style={{ color: 'var(--forest)', fontFamily: 'Georgia, serif' }}>{s.step}</div>
                 <h3 className="font-semibold text-gray-800 mb-2">{s.title}</h3>
                 <p className="text-sm text-gray-500 leading-relaxed mb-3">{s.desc}</p>
-                <div className="text-xs px-3 py-2 rounded-lg font-mono italic"
-                  style={{ background: 'var(--sage-light)', color: 'var(--forest)' }}>
+                <div
+                  className="text-xs px-3 py-2 rounded-lg font-mono italic"
+                  style={{ background: 'var(--sage-light)', color: 'var(--forest)' }}
+                >
                   {s.example}
                 </div>
               </div>
             ))}
           </div>
 
-          {/* Before After comparison */}
           <div className="rounded-2xl overflow-hidden border border-green-100">
             <div className="grid grid-cols-1 sm:grid-cols-2">
               <div className="p-6" style={{ background: '#F9F9F9' }}>
                 <div className="flex items-center gap-2 mb-4">
                   <span className="text-xs font-bold px-2 py-1 rounded" style={{ background: '#E5E7EB', color: '#6B7280' }}>WITHOUT JOURNALFLOW</span>
                 </div>
-                <p className="text-sm text-gray-500 italic mb-2">"I want to journal but I open the notebook and just... stare. I don't know what to write about. I close it and go back to my phone."</p>
+                <p className="text-sm text-gray-500 italic mb-2">
+                  &ldquo;I want to journal but I open the notebook and just stare. I do not know what to write about.&rdquo;
+                </p>
                 <div className="flex items-center gap-2 mt-4">
                   <span className="text-lg">😶</span>
                   <span className="text-xs text-gray-400">Blank page. Again.</span>
@@ -265,7 +242,9 @@ export default function HomePage() {
                 <div className="flex items-center gap-2 mb-4">
                   <span className="text-xs font-bold px-2 py-1 rounded" style={{ background: 'var(--forest)', color: 'white' }}>WITH JOURNALFLOW</span>
                 </div>
-                <p className="text-sm text-gray-700 italic mb-2">"What does your anxiety feel like in your body right now — and what is it asking you to pay attention to?"</p>
+                <p className="text-sm text-gray-700 italic mb-2">
+                  &ldquo;What does your anxiety feel like in your body right now, and what is it asking you to pay attention to?&rdquo;
+                </p>
                 <div className="flex items-center gap-2 mt-4">
                   <span className="text-lg">✍️</span>
                   <span className="text-xs" style={{ color: 'var(--forest)' }}>Writing for 20 minutes without stopping.</span>
@@ -276,7 +255,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Why us */}
       <section className="py-16 px-4 sm:px-6" style={{ background: 'var(--sage-light)' }}>
         <div className="max-w-4xl mx-auto">
           <h2 className="font-display text-3xl font-bold text-center mb-12" style={{ color: 'var(--ink)' }}>
@@ -287,17 +265,17 @@ export default function HomePage() {
               {
                 icon: '🤖',
                 title: 'AI that actually gets it',
-                desc: "Tell us your mood, your topic, how deep you want to go. The generator writes something specific to that combination — not pulled from a list.",
+                desc: 'Tell us your mood, your topic, how deep you want to go. The generator writes something specific to that combination, not pulled from a list.',
               },
               {
                 icon: '🧠',
                 title: 'Grounded in real practice',
-                desc: 'The prompts draw from CBT, DBT, and mindfulness approaches — written in plain language, not clinical jargon.',
+                desc: 'The prompts draw from CBT, DBT, and mindfulness approaches, written in plain language, not clinical jargon.',
               },
               {
                 icon: '✍️',
                 title: 'Human, not robotic',
-                desc: "No corporate wellness speak. The output sounds like a thoughtful friend who happens to know a lot about emotional wellbeing.",
+                desc: 'No corporate wellness speak. The output sounds like a thoughtful friend who happens to know a lot about emotional wellbeing.',
               },
             ].map((f) => (
               <div key={f.title} className="text-center">
@@ -310,7 +288,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Testimonials */}
       <section className="py-16 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto">
           <h2 className="font-display text-2xl font-bold text-center mb-10" style={{ color: 'var(--ink)' }}>
@@ -319,7 +296,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             {TESTIMONIALS.map((t) => (
               <div key={t.author} className="bg-white rounded-xl border border-green-50 p-5 shadow-sm">
-                <p className="text-sm text-gray-600 italic leading-relaxed mb-4">"{t.text}"</p>
+                <p className="text-sm text-gray-600 italic leading-relaxed mb-4">&ldquo;{t.text}&rdquo;</p>
                 <div>
                   <p className="text-sm font-semibold text-gray-800">{t.author}</p>
                   <p className="text-xs text-gray-400">{t.role}</p>
@@ -330,17 +307,16 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Bottom CTA */}
       <section className="py-16 px-4 text-center" style={{ background: 'var(--forest)' }}>
         <div className="max-w-xl mx-auto">
           <h2 className="font-display text-3xl font-bold text-white mb-4">
-            3 free prompts a day.<br />Unlimited when you're ready.
+            3 free prompts a day. Unlimited when you are ready.
           </h2>
           <p className="text-green-200 mb-3 leading-relaxed">
-            Start now — no account, no card. When journaling becomes a habit you rely on, Pro is there.
+            Start now, no account, no card. When journaling becomes a habit you rely on, Pro is there.
           </p>
           <p className="text-green-300 text-sm mb-8 opacity-80">
-            Pro members get unlimited AI generation + a personalized prompt in their inbox every morning.
+            Pro members get unlimited AI generation plus a personalized prompt in their inbox every morning.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
@@ -348,7 +324,7 @@ export default function HomePage() {
               className="px-8 py-3.5 rounded-full font-semibold text-sm bg-white transition-opacity hover:opacity-90"
               style={{ color: 'var(--forest)' }}
             >
-              Generate My First Prompt — Free
+              Generate My First Prompt Free
             </a>
             <Link
               href="/pricing"

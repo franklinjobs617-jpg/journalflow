@@ -29,7 +29,7 @@ const lora = Lora({
 
 export const metadata: Metadata = {
   title: {
-    default: 'JournalFlow — AI Journal Prompt Generator',
+    default: 'JournalFlow  -  AI Journal Prompt Generator',
     template: '%s | JournalFlow',
   },
   description:
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://journalflow.ai',
     siteName: 'JournalFlow',
-    title: 'JournalFlow — AI Journal Prompt Generator',
+    title: 'JournalFlow  -  AI Journal Prompt Generator',
     description:
       'Generate personalized journal prompts with AI. 1000+ prompts for mental health, self-growth, anxiety, gratitude, and more.',
     images: [
@@ -58,13 +58,13 @@ export const metadata: Metadata = {
         url: '/og-image.svg',
         width: 1200,
         height: 630,
-        alt: 'JournalFlow — AI Journal Prompt Generator',
+        alt: 'JournalFlow  -  AI Journal Prompt Generator',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'JournalFlow — AI Journal Prompt Generator',
+    title: 'JournalFlow  -  AI Journal Prompt Generator',
     description:
       'Generate personalized journal prompts with AI. Start your journaling journey today.',
   },

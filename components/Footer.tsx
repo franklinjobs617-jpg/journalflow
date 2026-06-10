@@ -25,7 +25,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-sm text-gray-500 leading-relaxed max-w-xs">
-              AI-powered journal prompts to help you reflect, grow, and find your words — one day at a time.
+              AI-powered journal prompts to help you reflect, grow, and find your words  -  one day at a time.
             </p>
           </div>
 

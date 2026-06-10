@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server'
 
 const DAILY_PROMPTS = [
   "What's one small thing you've been carrying lately that you haven't talked about?",
-  "If today had a theme — a single word — what would it be, and why?",
+  "If today had a theme  -  a single word  -  what would it be, and why?",
   "What does your body need right now that you've been ignoring?",
   "Write about something you did this week that you're quietly proud of.",
   "What's a version of your life you've given up on? Is it really gone, or just waiting?",
@@ -11,7 +11,7 @@ const DAILY_PROMPTS = [
   "What belief about yourself is it time to let go of?",
   "Who in your life shows up without being asked? Have you told them you notice?",
   "What's the most honest thing you could say about where you are right now?",
-  "What are you waiting for permission to do — and who are you waiting from?",
+  "What are you waiting for permission to do  -  and who are you waiting from?",
   "Write about something that made you genuinely laugh this week.",
   "What's one thing you wish someone understood about you right now?",
   "What does rest actually look like for you? When did you last really do it?",

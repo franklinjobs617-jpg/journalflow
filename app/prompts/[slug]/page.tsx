@@ -104,7 +104,7 @@ export default async function PromptPage({ params }: Props) {
           <div className="mt-5">
             <DownloadPDFButton title={page.title} slug={page.slug} />
             <p className="text-xs text-gray-400 mt-2">
-              Your browser will open a print dialog — choose "Save as PDF" to download.
+              Your browser will open a print dialog  -  choose "Save as PDF" to download.
             </p>
           </div>
         </div>
@@ -198,7 +198,7 @@ export default async function PromptPage({ params }: Props) {
                           <div className="mt-3 pt-3 border-t border-green-50">
                             <p className="text-xs text-gray-400 leading-relaxed">
                               <span className="font-semibold" style={{ color: 'var(--forest)' }}>How to use this prompt: </span>
-                              Write it at the top of a fresh page. Set a timer for 10 minutes. Write without stopping — don't edit, don't judge. If you get stuck, write "I don't know what to say about this, but..." and keep going.
+                              Write it at the top of a fresh page. Set a timer for 10 minutes. Write without stopping  -  don't edit, don't judge. If you get stuck, write "I don't know what to say about this, but..." and keep going.
                             </p>
                           </div>
                         )}
@@ -209,7 +209,7 @@ export default async function PromptPage({ params }: Props) {
               })}
             </div>
 
-            {/* Mid-content upgrade CTA — after section 2 */}
+            {/* Mid-content upgrade CTA  -  after section 2 */}
             {sectionIdx === 1 && (
               <div
                 className="rounded-xl p-5 mt-8 text-center"
@@ -222,7 +222,7 @@ export default async function PromptPage({ params }: Props) {
                   Print it. Keep it in your journal. Share it with clients or students.
                 </p>
                 <p className="text-xs text-gray-400 mb-3">
-                  Use the Download PDF button at the top of this page — it works in any browser.
+                  Use the Download PDF button at the top of this page  -  it works in any browser.
                 </p>
                 <Link
                   href="/pricing"
@@ -259,7 +259,7 @@ export default async function PromptPage({ params }: Props) {
                 How do I use {page.title.toLowerCase()}?
               </h3>
               <p className="text-sm text-gray-500 leading-relaxed">
-                Pick a prompt that pulls at you — even if you're not sure why. Open your journal, write the prompt at the top of the page, and write without editing yourself. There are no wrong answers. Even 5 minutes of honest writing is worth more than a perfect hour that never happens.
+                Pick a prompt that pulls at you  -  even if you're not sure why. Open your journal, write the prompt at the top of the page, and write without editing yourself. There are no wrong answers. Even 5 minutes of honest writing is worth more than a perfect hour that never happens.
               </p>
             </div>
             <div className="bg-white rounded-xl border border-green-100 p-5">
@@ -267,7 +267,7 @@ export default async function PromptPage({ params }: Props) {
                 How often should I journal?
               </h3>
               <p className="text-sm text-gray-500 leading-relaxed">
-                Consistency matters more than frequency. Even 3 times a week makes a real difference. The goal isn't to write every day perfectly — it's to keep coming back.
+                Consistency matters more than frequency. Even 3 times a week makes a real difference. The goal isn't to write every day perfectly  -  it's to keep coming back.
               </p>
             </div>
             <div className="bg-white rounded-xl border border-green-100 p-5">
@@ -305,7 +305,7 @@ export default async function PromptPage({ params }: Props) {
 
       {/* */}
       <div className="print-footer">
-        journalflow.ai — Free journal prompts for everyone
+        journalflow.ai  -  Free journal prompts for everyone
       </div>
     </>
   )

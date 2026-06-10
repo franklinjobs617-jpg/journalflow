@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Pricing — JournalFlow Pro',
+  title: 'Pricing  -  JournalFlow Pro',
   description:
     'Unlock unlimited AI journal prompt generation. Personalized prompts delivered daily to your inbox. Start free, upgrade when you\'re ready.',
   alternates: { canonical: 'https://journalflow.ai/pricing' },
@@ -17,7 +17,7 @@ const FREE_FEATURES = [
 
 const PRO_FEATURES = [
   { text: 'Unlimited AI prompt generation', detail: 'Generate as many as you need, any time of day' },
-  { text: 'Personalized daily prompt by email', detail: 'Every morning, one prompt built around your preferences — not random' },
+  { text: 'Personalized daily prompt by email', detail: 'Every morning, one prompt built around your preferences  -  not random' },
   { text: 'Generation history', detail: 'Every prompt you\'ve generated, saved and searchable' },
   { text: 'Early access to new topics', detail: 'New themes added monthly, Pro gets first access' },
   { text: 'Priority support', detail: 'We actually respond, fast' },
@@ -29,7 +29,7 @@ const GENERATOR_SCENARIOS = [
     mood: 'Anxious',
     topic: 'Mental Health',
     depth: 'Deep',
-    output: '"What does your anxiety feel like in your body right now — and what is it trying to protect you from?"',
+    output: '"What does your anxiety feel like in your body right now  -  and what is it trying to protect you from?"',
     who: 'For anyone processing anxiety or overwhelm',
   },
   {
@@ -37,7 +37,7 @@ const GENERATOR_SCENARIOS = [
     mood: 'Playful',
     topic: 'Just for Fun',
     depth: 'Quick',
-    output: '"If your personality were a type of weather, what would today\'s forecast be — and why?"',
+    output: '"If your personality were a type of weather, what would today\'s forecast be  -  and why?"',
     who: 'For building a light daily writing habit',
   },
   {
@@ -53,7 +53,7 @@ const GENERATOR_SCENARIOS = [
     mood: 'Stuck',
     topic: 'Parenting',
     depth: 'Deep',
-    output: '"What part of yourself did you have to set aside when you became a parent — and how do you feel about that today?"',
+    output: '"What part of yourself did you have to set aside when you became a parent  -  and how do you feel about that today?"',
     who: 'For new moms navigating identity shifts',
   },
 ]
@@ -113,7 +113,7 @@ export default function PricingPage() {
         <div className="px-6 py-3 border-t border-green-100 text-center" style={{ background: 'var(--sage-light)' }}>
           <Link href="/" className="text-sm font-semibold underline underline-offset-2"
             style={{ color: 'var(--forest)' }}>
-            Try the generator free — no account needed →
+            Try the generator free  -  no account needed →
           </Link>
         </div>
       </div>
@@ -163,7 +163,7 @@ export default function PricingPage() {
               <span className="font-display text-4xl font-bold">$9.9</span>
               <span className="opacity-70 mb-1">/month</span>
             </div>
-            <p className="text-sm opacity-70">Or $79/year — save 33%.</p>
+            <p className="text-sm opacity-70">Or $79/year  -  save 33%.</p>
           </div>
           <ul className="flex flex-col gap-4 mb-8 flex-1">
             {PRO_FEATURES.map((f) => (
@@ -182,7 +182,7 @@ export default function PricingPage() {
               className="block text-center py-3 rounded-full text-sm font-semibold bg-white transition-opacity hover:opacity-90"
               style={{ color: 'var(--forest)' }}
             >
-              Join Waitlist — Get Early Access
+              Join Waitlist  -  Get Early Access
             </Link>
             <p className="text-center text-xs text-green-200 mt-1">
               Launching soon · Early members get 30% off forever
@@ -201,26 +201,26 @@ export default function PricingPage() {
             {
               icon: '🧠',
               title: 'You journal for mental health',
-              free: '3 AI prompts/day — enough to try, not enough to build a real habit',
+              free: '3 AI prompts/day  -  enough to try, not enough to build a real habit',
               pro: 'Unlimited personalized prompts + a prompt waiting in your inbox every morning before the day gets loud',
             },
             {
               icon: '🌱',
               title: "You're a therapist or counselor",
               free: 'Browse 1,700+ prompts, manually pick ones for clients',
-              pro: 'Generate prompts tailored to a specific client\'s situation in seconds — anxious, grieving, burned out — without the prep work',
+              pro: 'Generate prompts tailored to a specific client\'s situation in seconds  -  anxious, grieving, burned out  -  without the prep work',
             },
             {
               icon: '📚',
               title: "You're a teacher",
               free: 'Use the kids, middle school, and high school prompt pages',
-              pro: 'Generate fresh prompts for any class topic, mood, or age group on demand — no more reusing the same 10 questions',
+              pro: 'Generate fresh prompts for any class topic, mood, or age group on demand  -  no more reusing the same 10 questions',
             },
             {
               icon: '😄',
               title: 'You want a low-pressure habit',
               free: '3 AI prompts/day is genuinely enough to start',
-              pro: 'When journaling becomes something you look forward to, unlimited generation means you\'re never stuck — even at 11pm',
+              pro: 'When journaling becomes something you look forward to, unlimited generation means you\'re never stuck  -  even at 11pm',
             },
           ].map((uc) => (
             <div key={uc.title} className="bg-white rounded-xl border border-green-100 p-5">
@@ -256,10 +256,10 @@ export default function PricingPage() {
             },
             {
               q: 'What makes the personalized daily email different from the daily prompt page?',
-              a: 'The daily prompt page shows the same prompt to everyone. The Pro email is generated specifically for you — based on the topics, moods, and depth preferences you\'ve set. It arrives every morning before you open your phone.',
+              a: 'The daily prompt page shows the same prompt to everyone. The Pro email is generated specifically for you  -  based on the topics, moods, and depth preferences you\'ve set. It arrives every morning before you open your phone.',
             },
             {
-              q: "I'm a therapist — how would Pro help me specifically?",
+              q: "I'm a therapist  -  how would Pro help me specifically?",
               a: 'Instead of hunting for the right prompt before a session, you describe the client\'s situation (anxious, processing grief, working on self-esteem) and generate a tailored prompt in seconds. Many therapists use it as between-session homework for clients.',
             },
             {

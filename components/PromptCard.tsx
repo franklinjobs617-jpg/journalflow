@@ -331,7 +331,7 @@ export function PromptCardsGrid({ prompts, slug, title }: PromptCardsGridProps) 
         </div>
         {/* */}
         <a
-          href={`https://pinterest.com/pin/create/button/?url=https://journalflow.ai/prompts/${slug}&description=${encodeURIComponent(title + ' — JournalFlow.ai')}`}
+          href={`https://pinterest.com/pin/create/button/?url=https://journalflow.ai/prompts/${slug}&description=${encodeURIComponent(title + '  -  JournalFlow.ai')}`}
           target="_blank"
           rel="noopener noreferrer"
           className="hidden sm:flex items-center gap-1.5 text-xs font-semibold px-3 py-2 rounded-full text-white transition-opacity hover:opacity-90"

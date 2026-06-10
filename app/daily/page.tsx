@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: "Today's Journal Prompt — Daily Journaling Prompts",
+  title: "Today's Journal Prompt  -  Daily Journaling Prompts",
   description:
     "A new journal prompt every single day. Subscribe to receive your daily prompt by email and build a consistent journaling practice.",
   alternates: { canonical: 'https://journalflow.ai/daily' },
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 //
 const DAILY_PROMPTS = [
   "What's one small thing you've been carrying lately that you haven't talked about?",
-  "If today had a theme — a single word — what would it be, and why?",
+  "If today had a theme  -  a single word  -  what would it be, and why?",
   "What does your body need right now that you've been ignoring?",
   "Write about something you did this week that you're quietly proud of.",
   "What's a version of your life you've given up on? Is it really gone, or just waiting?",
@@ -20,21 +20,21 @@ const DAILY_PROMPTS = [
   "What belief about yourself is it time to let go of?",
   "Who in your life shows up without being asked? Have you told them you notice?",
   "What's the most honest thing you could say about where you are right now?",
-  "What are you waiting for permission to do — and who are you waiting from?",
+  "What are you waiting for permission to do  -  and who are you waiting from?",
   "Write about something that made you genuinely laugh this week.",
   "What's one thing you wish someone understood about you right now?",
   "What does rest actually look like for you? When did you last really do it?",
   "Write about a door that opened for you that you almost missed.",
   "What's a small thing you've been doing right that you haven't acknowledged?",
   "What would change if you stopped arguing with yourself for one day?",
-  "Write about a feeling you've been avoiding. Just name it — you don't have to solve it.",
+  "Write about a feeling you've been avoiding. Just name it  -  you don't have to solve it.",
   "What's the one conversation you've been putting off? What makes it hard?",
   "If your wisest self could give you one instruction for today, what would it be?",
-  "What's something you keep coming back to — a thought, a question, a feeling?",
+  "What's something you keep coming back to  -  a thought, a question, a feeling?",
   "Write about who you're becoming. What evidence do you see of that in your daily life?",
   "What does gratitude feel like in your body, when it's real?",
   "What's one thing you know is true about yourself that your inner critic refuses to acknowledge?",
-  "Write about a moment this week when you were kind — to someone else, or to yourself.",
+  "Write about a moment this week when you were kind  -  to someone else, or to yourself.",
   "What part of your life feels most aligned with who you are right now?",
   "What would it mean to be enough, exactly as you are today?",
   "Write about something you're learning that excites you.",
