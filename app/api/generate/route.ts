@@ -51,7 +51,7 @@ export async function POST(request: NextRequest) {
       return NextResponse.json(
         {
           error: 'Daily limit reached',
-          message: "You've used your 3 free prompts for today. Upgrade to Pro for unlimited generations.",
+          message: "You've used your 3 free prompts for today. Pro members get unlimited — join the waitlist for early access.",
           upgradeUrl: '/pricing',
         },
         { status: 429 }

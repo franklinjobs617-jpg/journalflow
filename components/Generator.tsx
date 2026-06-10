@@ -236,8 +236,15 @@ export default function Generator() {
         {remaining !== null && (
           <p className="text-center text-xs text-gray-400 mt-2">
             {remaining > 0
-              ? `${remaining} free generation${remaining === 1 ? '' : 's'} left today`
-              : 'Last free generation used'}
+              ? `${remaining} free prompt${remaining === 1 ? '' : 's'} left today — Pro gets unlimited`
+              : (
+                <span>
+                  Free limit reached today ·{' '}
+                  <a href="/pricing" style={{ color: 'var(--forest)', textDecoration: 'underline' }}>
+                    Go Pro for unlimited
+                  </a>
+                </span>
+              )}
           </p>
         )}
       </div>

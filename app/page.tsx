@@ -132,7 +132,7 @@ export default function HomePage() {
 
           {/* 免费说明 */}
           <p className="text-center text-sm text-gray-400 mt-4">
-            3 free generations per day · No account needed ·{' '}
+            3 free AI prompts per day · No account needed ·{' '}
             <Link href="/pricing" style={{ color: 'var(--forest)' }} className="underline underline-offset-2">
               Go Pro for unlimited
             </Link>
@@ -169,7 +169,7 @@ export default function HomePage() {
               Explore by topic
             </h2>
             <p className="text-gray-500">
-              1,500+ hand-crafted prompts across every topic that matters — from deep self-reflection to something a little lighter.
+              1,700+ hand-crafted prompts across 17 topics — from deep self-reflection to something a little lighter.
             </p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-4">
@@ -203,6 +203,79 @@ export default function HomePage() {
         </div>
       </section>
 
+
+      {/* 如何使用 — 3步演示 */}
+      <section className="py-16 px-4 sm:px-6">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="font-display text-3xl font-bold mb-3" style={{ color: 'var(--ink)' }}>
+              How it works
+            </h2>
+            <p className="text-gray-500 max-w-xl mx-auto">
+              From blank page to writing in under 30 seconds.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-12">
+            {[
+              {
+                step: '01',
+                title: 'Tell us how you're feeling',
+                desc: 'Choose your mood, topic, and how deep you want to go. Anxious? Playful? Burned out? We start where you are.',
+                example: 'Feeling: Anxious · Topic: Mental Health · Depth: Deep',
+              },
+              {
+                step: '02',
+                title: 'Get your personalized prompt',
+                desc: 'Our AI writes a prompt tailored to exactly what you selected — not generic, not pulled from a list.',
+                example: '"What does your anxiety try to protect you from — and is it working?"',
+              },
+              {
+                step: '03',
+                title: 'Open your journal and write',
+                desc: 'Copy the prompt, set a timer for 10 minutes, and just write. No editing, no judgment — just honest words.',
+                example: 'Pro tip: write the prompt at the top of the page first.',
+              },
+            ].map((s) => (
+              <div key={s.step} className="relative">
+                <div className="text-5xl font-bold mb-4 opacity-10" style={{ color: 'var(--forest)', fontFamily: 'Georgia, serif' }}>{s.step}</div>
+                <h3 className="font-semibold text-gray-800 mb-2">{s.title}</h3>
+                <p className="text-sm text-gray-500 leading-relaxed mb-3">{s.desc}</p>
+                <div className="text-xs px-3 py-2 rounded-lg font-mono italic"
+                  style={{ background: 'var(--sage-light)', color: 'var(--forest)' }}>
+                  {s.example}
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Before/After 对比 */}
+          <div className="rounded-2xl overflow-hidden border border-green-100">
+            <div className="grid grid-cols-1 sm:grid-cols-2">
+              <div className="p-6" style={{ background: '#F9F9F9' }}>
+                <div className="flex items-center gap-2 mb-4">
+                  <span className="text-xs font-bold px-2 py-1 rounded" style={{ background: '#E5E7EB', color: '#6B7280' }}>WITHOUT JOURNALFLOW</span>
+                </div>
+                <p className="text-sm text-gray-500 italic mb-2">"I want to journal but I open the notebook and just... stare. I don't know what to write about. I close it and go back to my phone."</p>
+                <div className="flex items-center gap-2 mt-4">
+                  <span className="text-lg">😶</span>
+                  <span className="text-xs text-gray-400">Blank page. Again.</span>
+                </div>
+              </div>
+              <div className="p-6" style={{ background: 'var(--sage-light)' }}>
+                <div className="flex items-center gap-2 mb-4">
+                  <span className="text-xs font-bold px-2 py-1 rounded" style={{ background: 'var(--forest)', color: 'white' }}>WITH JOURNALFLOW</span>
+                </div>
+                <p className="text-sm text-gray-700 italic mb-2">"What does your anxiety feel like in your body right now — and what is it asking you to pay attention to?"</p>
+                <div className="flex items-center gap-2 mt-4">
+                  <span className="text-lg">✍️</span>
+                  <span className="text-xs" style={{ color: 'var(--forest)' }}>Writing for 20 minutes without stopping.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* 为什么选我们 */}
       <section className="py-16 px-4 sm:px-6" style={{ background: 'var(--sage-light)' }}>
         <div className="max-w-4xl mx-auto">
@@ -212,19 +285,19 @@ export default function HomePage() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
             {[
               {
-                icon: '🎯',
-                title: 'Tailored to you',
-                desc: "Generic prompts don't work. Ours adapt to your mood, goals, and how much time you have.",
+                icon: '🤖',
+                title: 'AI that actually gets it',
+                desc: "Tell us your mood, your topic, how deep you want to go. The generator writes something specific to that combination — not pulled from a list.",
               },
               {
                 icon: '🧠',
-                title: 'Rooted in research',
-                desc: 'Our prompts draw from CBT, DBT, and mindfulness practices — the stuff that actually helps.',
+                title: 'Grounded in real practice',
+                desc: 'The prompts draw from CBT, DBT, and mindfulness approaches — written in plain language, not clinical jargon.',
               },
               {
                 icon: '✍️',
-                title: 'For real humans',
-                desc: "No corporate wellness speak. Just honest, warm prompts written in a voice that feels like a friend.",
+                title: 'Human, not robotic',
+                desc: "No corporate wellness speak. The output sounds like a thoughtful friend who happens to know a lot about emotional wellbeing.",
               },
             ].map((f) => (
               <div key={f.title} className="text-center">
@@ -261,10 +334,13 @@ export default function HomePage() {
       <section className="py-16 px-4 text-center" style={{ background: 'var(--forest)' }}>
         <div className="max-w-xl mx-auto">
           <h2 className="font-display text-3xl font-bold text-white mb-4">
-            Ready to start writing?
+            3 free prompts a day.<br />Unlimited when you're ready.
           </h2>
-          <p className="text-green-200 mb-8 leading-relaxed">
-            Your journal is waiting. It doesn't have to be perfect — it just has to start.
+          <p className="text-green-200 mb-3 leading-relaxed">
+            Start now — no account, no card. When journaling becomes a habit you rely on, Pro is there.
+          </p>
+          <p className="text-green-300 text-sm mb-8 opacity-80">
+            Pro members get unlimited AI generation + a personalized prompt in their inbox every morning.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
@@ -272,7 +348,7 @@ export default function HomePage() {
               className="px-8 py-3.5 rounded-full font-semibold text-sm bg-white transition-opacity hover:opacity-90"
               style={{ color: 'var(--forest)' }}
             >
-              Generate a Free Prompt
+              Generate My First Prompt — Free
             </a>
             <Link
               href="/pricing"
