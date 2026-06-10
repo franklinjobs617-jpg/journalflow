@@ -11,7 +11,7 @@ therapistNote: "Burnout isn't just tiredness. It's a signal that something in yo
 
 Burnout doesn't announce itself clearly. It tends to creep up — the tasks that used to be energizing start feeling heavy, the things you used to care about start feeling distant, and you start moving through your days on autopilot. These 100 journal prompts for burnout are designed to help you understand what's happening, reconnect with what you actually need, and figure out what a sustainable version of your life might look like. Start slow. Even five minutes of honest writing is more useful than another hour of pushing through.
 
-## Understanding Your Burnout
+## Journal Prompts for Burnout: Understanding What Happened
 
 1. On a scale of 1–10, how burned out do you feel right now? What's contributing most to that number?
 2. When did you first notice something was off? What were the early signs?
@@ -34,7 +34,7 @@ Burnout doesn't announce itself clearly. It tends to creep up — the tasks that
 19. What's the most draining part of your week? Can anything change about it?
 20. Write about what exhaustion feels like for you — not just physical, but all the kinds.
 
-## What You Actually Need
+## Burnout Journal Prompts for Identifying Your Needs
 
 21. If you could take a full week with no responsibilities, what would you do?
 22. What does real rest look like for you — not sleep, but actual restoration?
@@ -57,7 +57,7 @@ Burnout doesn't announce itself clearly. It tends to creep up — the tasks that
 39. What does your gut say about what needs to change?
 40. Write about what "recovery" looks like for you — not just rest, but actual rebuilding.
 
-## Reconnecting with Yourself
+## Journal Prompts for Burnout Recovery and Reconnection
 
 41. Who were you before this season of burnout? What's still true about that person?
 42. What do you value that your current life isn't reflecting?
@@ -75,7 +75,7 @@ Burnout doesn't announce itself clearly. It tends to creep up — the tasks that
 54. What's one thing you could reclaim this month — even a small piece of something you've lost?
 55. Write about what alignment feels like when you've had it. What were the conditions?
 
-## Making Changes
+## Burnout Journaling Prompts for Making Changes
 
 56. What's one thing you could change immediately that would reduce the pressure?
 57. What's one thing you could ask for that you haven't asked for yet?
@@ -93,7 +93,7 @@ Burnout doesn't announce itself clearly. It tends to creep up — the tasks that
 69. What's something you've been doing out of obligation that you could release?
 70. What would it mean to build your life around what restores you instead of around what depletes you?
 
-## Longer-Term Reflection
+## Journal Prompts for Burnout: Long-Term Reflection
 
 71. How long have you been running on empty? When did this actually start?
 72. What have you been telling yourself that has kept you pushing through?
@@ -111,7 +111,7 @@ Burnout doesn't announce itself clearly. It tends to creep up — the tasks that
 84. What would you tell your past self about how to prevent this?
 85. Write about what you want your life to look like when you're on the other side of this.
 
-## Finding Your Way Back
+## Burnout Recovery Journal Prompts
 
 86. What's one small thing that gave you energy this week, even briefly?
 87. Write about a moment recently when you felt like yourself — even just for a moment.

@@ -11,7 +11,7 @@ therapistNote: "The hardest part of journaling is starting. These prompts are in
 
 The blank page doesn't have to be scary. These 100 journal prompts for beginners are designed to be your way in — questions simple enough to answer in five minutes, interesting enough to keep you writing for thirty. No journaling experience required. No right or wrong answers. Just you and a page, figuring out what you think and how you feel. Start with whichever one you like. Come back tomorrow. That's the whole practice.
 
-## Simple Starter Prompts for New Journalers
+## Journal Prompts for Beginners: Simple Starters
 
 1. How are you, really? Not the version you give when someone asks in passing — the real answer.
 2. Describe your day in three words. Then explain why you chose those three.
@@ -39,7 +39,7 @@ The blank page doesn't have to be scary. These 100 journal prompts for beginners
 24. What's something you want to do more of?
 25. If today had a color, what would it be? Why?
 
-## Getting to Know Yourself (Easy Version)
+## Beginner Journal Prompts for Self-Discovery
 
 26. What are three things you actually like about yourself?
 27. What's something you're good at that you don't give yourself enough credit for?
@@ -67,7 +67,7 @@ The blank page doesn't have to be scary. These 100 journal prompts for beginners
 49. What does comfort look like to you?
 50. What's something small you could do today that would make tomorrow a little easier?
 
-## Easy Reflection Prompts
+## Easy Journal Prompts for Weekly Reflection
 
 51. What went well this week? Don't overthink it — just what comes to mind.
 52. What's something you handled better than you expected recently?
@@ -90,7 +90,7 @@ The blank page doesn't have to be scary. These 100 journal prompts for beginners
 69. What's something you're looking forward to this week, even something ordinary?
 70. What's one thing that's been better lately than you expected?
 
-## Simple Prompts About Your Life Right Now
+## Journal Prompts for Beginners: Your Life Right Now
 
 71. Describe where you are in life right now in 3-5 sentences. Just the basics.
 72. What's something that's changed in your life in the last year?
@@ -113,7 +113,7 @@ The blank page doesn't have to be scary. These 100 journal prompts for beginners
 89. What's a part of your daily life that brings you a small, quiet joy?
 90. What would you want someone to know about your life right now — the real version, not the highlight reel?
 
-## Prompts for When You Really Don't Know What to Write
+## Beginner Journaling Prompts When You Have No Idea What to Write
 
 91. Write about what's in your line of sight right now. Describe three things you can see.
 92. What did you have for your last meal? Did you enjoy it?

@@ -11,7 +11,7 @@ therapistNote: "Motherhood is one of the most identity-shifting experiences a pe
 
 Motherhood doesn't leave a lot of room for your own thoughts. These 100 journal prompts for moms are here to give you that room — five minutes, ten minutes, whatever you have. They're for new moms who are still figuring out who they are now, for tired moms who can't remember the last time they did something just for themselves, and for every mom who has ever felt like she's doing it all wrong while somehow also doing it right. No performance required. Just honesty.
 
-## Journal Prompts for New Moms
+## Journal Prompts for New Moms: Early Motherhood
 
 1. How are you actually doing right now — not the answer you give when people ask, but the real one?
 2. What's something about being a new mom that nobody warned you about?
@@ -34,7 +34,7 @@ Motherhood doesn't leave a lot of room for your own thoughts. These 100 journal 
 19. Write about your birth story, or a piece of it. Whatever feels right to put on paper.
 20. What do you hope your child knows about this season when they're older?
 
-## Journal Prompts for Mom Burnout
+## Mom Burnout Journal Prompts
 
 21. On a scale of 1–10, how full is your tank right now? What's draining it most?
 22. What does burnout feel like in your body? Where do you carry it?
@@ -57,7 +57,7 @@ Motherhood doesn't leave a lot of room for your own thoughts. These 100 journal 
 39. What does support look like for you, specifically? Who provides it?
 40. Write about what you need most right now, even if you don't know how to get it.
 
-## Prompts About the Identity Shift
+## Journal Prompts for Moms on Identity and Change
 
 41. Who were you before you became a mother? What parts of that person are still here?
 42. What parts of your identity feel like they've gone quiet since having kids?
@@ -75,7 +75,7 @@ Motherhood doesn't leave a lot of room for your own thoughts. These 100 journal 
 54. Write about the relationship between your childhood and how you parent.
 55. What's a value you want to pass on to your kids more than anything else?
 
-## Prompts About the Good Parts
+## Mom Journal Prompts for Gratitude and Joy
 
 56. What's a moment from this week that made everything feel worth it?
 57. Write about something your child did recently that you want to remember forever.
@@ -93,7 +93,7 @@ Motherhood doesn't leave a lot of room for your own thoughts. These 100 journal 
 69. Write about something your family does together that you genuinely enjoy.
 70. What's something you want your child to know about who you are, beyond just being their mom?
 
-## Prompts for Taking Care of Yourself
+## Self-Care Journal Prompts for Moms
 
 71. What does taking care of yourself look like right now — realistically, not ideally?
 72. What's one thing you could do this week that's purely for you?
@@ -111,7 +111,7 @@ Motherhood doesn't leave a lot of room for your own thoughts. These 100 journal 
 84. Write about what friendship looks like in this season of your life.
 85. What's something you want to keep doing for yourself, even when things get busy?
 
-## Deeper Mom Prompts
+## Deep Journal Prompts for Mothers
 
 86. What's something about motherhood you've never said out loud?
 87. Write about a moment when you felt like you were failing. What happened next?

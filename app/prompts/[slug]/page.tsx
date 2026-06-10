@@ -262,7 +262,7 @@ export default async function PromptPage({ params }: Props) {
         {related.length > 0 && (
           <section>
             <h2 className="font-display text-xl font-bold mb-4" style={{ color: 'var(--ink)' }}>
-              Keep exploring
+              More journal prompts you might like
             </h2>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
               {related.map((r) => (
@@ -272,7 +272,7 @@ export default async function PromptPage({ params }: Props) {
                   className="card-hover bg-white rounded-xl border border-green-50 p-4 text-sm font-medium text-gray-700"
                 >
                   {r.title}
-                  <div className="text-xs text-gray-400 mt-1">{r.promptCount} prompts</div>
+                  <div className="text-xs text-gray-400 mt-1">{r.promptCount} free prompts →</div>
                 </Link>
               ))}
             </div>

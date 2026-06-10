@@ -5,7 +5,7 @@ description: "100 journal prompts for anxiety to help you understand your worrie
 keywords: ["journal prompts for anxiety", "anxiety journaling prompts", "journaling for anxiety", "anxiety journal ideas"]
 category: "mental-health"
 promptCount: 100
-relatedSlugs: ["mental-health", "shadow-work", "self-love", "morning"]
+relatedSlugs: ["mental-health", "shadow-work", "self-love", "morning", "therapy"]
 therapistNote: "These prompts draw from Cognitive Behavioral Therapy (CBT) and mindfulness practices. They're especially helpful for identifying thought patterns and finding grounding."
 ---
 

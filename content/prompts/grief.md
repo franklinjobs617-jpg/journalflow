@@ -11,7 +11,7 @@ therapistNote: "Grief doesn't move in a straight line, and these prompts aren't 
 
 Grief is not a problem to solve. It's a process to move through — slowly, unevenly, and in your own time. These 100 journal prompts for grief are designed to give your loss somewhere to land, to help you say the things that are hardest to say out loud, and to make a little more room inside you for what you're carrying. They're for the loss of a person, yes, but also for the loss of a relationship, a version of yourself, a dream, a future you'd imagined. Loss comes in many forms. Whatever yours is, it belongs here.
 
-## Journal Prompts for Early Grief
+## Journal Prompts for Grief: Early Days
 
 1. Write about what happened, in whatever way feels possible right now. You don't have to tell the whole story.
 2. What does grief feel like in your body today? Where do you feel it?
@@ -34,7 +34,7 @@ Grief is not a problem to solve. It's a process to move through — slowly, unev
 19. What's something you can't bring yourself to do yet that you know you'll have to eventually?
 20. Write one thing you want to say to the person, relationship, or version of yourself that you've lost.
 
-## Honoring What You've Lost
+## Grief Journal Prompts for Honoring Your Loss
 
 21. Write about who or what you lost. Not just the facts — the texture of them.
 22. What's something about them (or it) that most people didn't know?
@@ -57,7 +57,7 @@ Grief is not a problem to solve. It's a process to move through — slowly, unev
 39. What's something you never got to say? Say it here.
 40. If you could spend one more ordinary day with them, what would you do?
 
-## Moving Through Grief
+## Journal Prompts for Moving Through Grief
 
 41. What does "moving forward" mean to you right now? Does it feel possible?
 42. Write about a day recently when the grief was a little lighter. What was different?
@@ -80,7 +80,7 @@ Grief is not a problem to solve. It's a process to move through — slowly, unev
 59. Write about a moment when you felt something other than grief this week. What was it?
 60. What's one thing you're holding onto right now that you're not ready to let go of?
 
-## Complicated Grief
+## Journal Prompts for Complicated Grief
 
 61. Write about a relationship that was complicated. How do you grieve something that wasn't simple?
 62. Is there anger mixed into your grief? What's it pointed at?
@@ -98,7 +98,7 @@ Grief is not a problem to solve. It's a process to move through — slowly, unev
 74. Write about what you needed that you didn't get — from them, from others, from yourself.
 75. What does self-compassion look like when you're grieving something complicated?
 
-## Finding Your Way Through
+## Grief Journaling Prompts for Healing
 
 76. What does a good day look like right now? Not great — just good.
 77. What's something small that's been a source of comfort?

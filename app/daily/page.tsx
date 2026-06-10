@@ -121,24 +121,18 @@ export default function DailyPage() {
         <p className="text-sm text-gray-500 mb-5 max-w-md mx-auto">
           A new prompt every morning, delivered quietly to your inbox. No noise, just one question worth sitting with.
         </p>
-        <div className="flex flex-col sm:flex-row gap-2 max-w-sm mx-auto">
-          <input
-            type="email"
-            placeholder="your@email.com"
-            disabled
-            className="flex-1 px-4 py-3 rounded-full border border-green-200 text-sm outline-none focus:border-green-400"
-            style={{ background: '#fff' }}
-          />
-          <button
-            type="button"
-            disabled
-            className="px-5 py-3 rounded-full text-white text-sm font-semibold whitespace-nowrap opacity-70 cursor-not-allowed"
+        <div className="max-w-sm mx-auto">
+          <a
+            href="mailto:hello@journalflow.ai?subject=Daily%20Prompt%20Subscription"
+            className="block w-full text-center px-5 py-3 rounded-full text-white text-sm font-semibold"
             style={{ background: 'var(--forest)' }}
           >
-            Coming Soon
-          </button>
+            Subscribe via Email
+          </a>
+          <p className="text-xs text-gray-400 mt-3 text-center">
+            Send us your email and we will add you to the daily list. No spam, unsubscribe anytime.
+          </p>
         </div>
-        <p className="text-xs text-gray-400 mt-3">No spam. Unsubscribe anytime.</p>
       </div>
     </div>
   )

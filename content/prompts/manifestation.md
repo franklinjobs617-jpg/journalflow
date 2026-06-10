@@ -9,6 +9,9 @@ relatedSlugs: ["self-discovery", "morning", "gratitude", "self-love"]
 therapistNote: "The most effective manifestation practice combines clear intention with honest self-reflection and real action. These prompts are designed to do all three."
 ---
 
+Manifestation isn't magic — it's clarity. Before you can move toward what you want, you have to understand what you actually want, why you want it, and what might be getting in the way. These 100 manifestation journal prompts are designed to help you do that work: to get specific about your vision, examine the beliefs that might be holding you back, and start building a life that's genuinely aligned with what matters to you. Skip the toxic positivity — this is about honest, grounded intention-setting that leads to real action.
+
+
 ## Clarity & Vision
 
 1. If you could wake up five years from now and have your life look exactly the way you want, what does it look like in detail?

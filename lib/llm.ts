@@ -130,5 +130,5 @@ export async function generatePromptStream(
     return response.body!
   }
 
-  throw new Error('No LLM API key configured. Please set OPENAI_API_KEY or ANTHROPIC_API_KEY in environment variables.')
+  throw new Error('No LLM API key configured. Set OPENAI_API_KEY, ANTHROPIC_API_KEY, or LLM_API_KEY+LLM_API_BASE_URL+LLM_MODEL for third-party providers (e.g. Volcano Engine).')
 }

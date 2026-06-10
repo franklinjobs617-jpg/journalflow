@@ -28,9 +28,9 @@ const config: Config = {
         muted: '#6B7280',
       },
       fontFamily: {
-        display: ['Playfair Display', 'Georgia', 'serif'],
-        body: ['Inter', 'system-ui', 'sans-serif'],
-        prose: ['Lora', 'Georgia', 'serif'],
+        display: ['var(--font-playfair)', 'Georgia', 'serif'],
+        body: ['var(--font-inter)', 'system-ui', 'sans-serif'],
+        prose: ['var(--font-lora)', 'Georgia', 'serif'],
       },
       typography: {
         DEFAULT: {

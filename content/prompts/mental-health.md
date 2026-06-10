@@ -5,7 +5,7 @@ description: "100 mental health journal prompts to support your emotional wellbe
 keywords: ["journal prompts for mental health", "mental health journaling prompts", "mental health journal ideas", "journaling for mental health"]
 category: "mental-health"
 promptCount: 100
-relatedSlugs: ["anxiety", "shadow-work", "self-discovery", "gratitude"]
+relatedSlugs: ["anxiety", "shadow-work", "self-discovery", "gratitude", "therapy"]
 therapistNote: "Regular journaling is one of the most accessible forms of emotional processing. These prompts are designed to work alongside — not replace — professional support."
 ---
 

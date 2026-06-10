@@ -11,7 +11,7 @@ therapistNote: "Not every journaling session needs to be deep. Light, playful pr
 
 Not all journaling has to be heavy. Sometimes the best thing you can write about is your strong opinion on the correct way to eat a sandwich, or the imaginary life of your houseplant. These 100 fun journal prompts are here for those days — and honestly, for most days. They're light, a little silly, genuinely interesting, and completely free of forced gratitude or deep self-reflection. The goal is simple: to make writing something you actually look forward to.
 
-## Fun Journal Prompts About Everyday Life
+## Fun Journal Prompts for Everyday Moments
 
 1. What's a hill you will absolutely die on — an opinion so strong you'd defend it forever?
 2. Describe your perfect lazy Sunday in embarrassing detail. Don't leave anything out.
@@ -39,7 +39,7 @@ Not all journaling has to be heavy. Sometimes the best thing you can write about
 24. Describe your relationship with your phone like it's a complicated friendship.
 25. What's something you've lied about knowing and then had to desperately Google?
 
-## Fun "Would You Rather" Journal Prompts
+## Fun Would You Rather Journal Prompts
 
 26. Would you rather have the ability to fly but only at walking speed, or run at 100mph but only backwards?
 27. Would you rather know every language in the world or be able to play every instrument?
@@ -67,7 +67,7 @@ Not all journaling has to be heavy. Sometimes the best thing you can write about
 49. Would you rather know the exact date of your death or never know at all?
 50. Would you rather be a master chef who can't taste food or an amazing musician who can't hear music?
 
-## Fun Imagination & "What If" Prompts
+## Fun Journal Prompts for Imagination and What Ifs
 
 51. If you could live in any fictional world for a week, which would you pick? What would you do there?
 52. You've been given $10,000 but you have to spend it in 24 hours. What do you buy?
@@ -95,7 +95,7 @@ Not all journaling has to be heavy. Sometimes the best thing you can write about
 74. You've been asked to write the worst possible motivational poster. What does it say?
 75. If your brain had a settings menu, what would you adjust first?
 
-## Fun Nostalgia & Random Favorites
+## Fun Journaling Prompts About Nostalgia and Favorites
 
 76. What's a childhood toy or game you'd love to play again right now?
 77. Write about your all-time favorite meal — not the most impressive one, the most comforting one.

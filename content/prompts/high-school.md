@@ -10,6 +10,9 @@ therapistNote: "High school students are navigating enormous pressure alongside 
 printable: true
 ---
 
+High school is one of the most identity-defining periods of your life — and one of the least supported when it comes to having space to actually think. These 100 journal prompts for high school students are designed to give you that space. They go beyond homework and grades to ask the questions that actually matter at this stage: who you are, what you believe, what kind of person you want to become. They're honest, they're not preachy, and they treat you like the complex, thoughtful person you are. You don't have to answer every prompt. Start with the one that makes you lean forward a little.
+
+
 ## Identity & Self
 
 1. Who are you when no one is watching — when there's no audience, no image to maintain?

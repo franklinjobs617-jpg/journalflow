@@ -102,18 +102,15 @@ export default function PricingPage() {
           </ul>
           <div className="flex flex-col gap-2">
             <Link
-              href="#"
+              href="mailto:hello@journalflow.ai?subject=Pro%20Access%20Waitlist"
               className="block text-center py-3 rounded-full text-sm font-semibold bg-white transition-opacity hover:opacity-90"
               style={{ color: 'var(--forest)' }}
             >
-              Get Pro Monthly
+              Join Waitlist — Get Early Access
             </Link>
-            <Link
-              href="#"
-              className="block text-center py-3 rounded-full text-sm font-semibold border border-white/40 text-white transition-opacity hover:opacity-90"
-            >
-              Get Pro Yearly — $79
-            </Link>
+            <p className="text-center text-xs text-green-200 mt-1">
+              Launching soon · Early members get 30% off
+            </p>
           </div>
         </div>
 
@@ -136,11 +133,11 @@ export default function PricingPage() {
             ))}
           </ul>
           <Link
-            href="#"
+            href="mailto:hello@journalflow.ai?subject=PDF%20Bundle%20Request"
             className="block text-center py-3 rounded-full border-2 text-sm font-semibold transition-all"
             style={{ borderColor: 'var(--forest)', color: 'var(--forest)' }}
           >
-            Buy PDF Bundle
+            Request PDF Bundle
           </Link>
         </div>
       </div>

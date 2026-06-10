@@ -9,6 +9,9 @@ relatedSlugs: ["anxiety", "mental-health", "shadow-work", "self-discovery"]
 therapistNote: "These prompts are designed to support — not replace — professional therapy. They work well as between-session homework or as a standalone reflection practice for anyone on a healing journey."
 ---
 
+Journaling between therapy sessions can be one of the most powerful things you do for your mental health — it helps you process what came up, notice patterns between sessions, and arrive at your next appointment with more clarity. These 100 therapy journal prompts are grounded in CBT, DBT, and trauma-informed approaches, but written in plain, accessible language. They work equally well as a standalone reflective practice for anyone on a healing journey who doesn't have a therapist right now. Go at your own pace. If something brings up more than you can hold, please reach out to a professional.
+
+
 ## Between Sessions
 
 1. What came up in your last therapy session that you're still thinking about?

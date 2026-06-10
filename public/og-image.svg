@@ -1,0 +1,59 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D8F3DC"/>
+      <stop offset="50%" style="stop-color:#FAFAF8"/>
+      <stop offset="100%" style="stop-color:#FDECD5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Left decorative line -->
+  <rect x="0" y="0" width="8" height="630" fill="#2D6A4F"/>
+
+  <!-- Journal book illustration (simplified) -->
+  <rect x="780" y="120" width="320" height="390" rx="8" fill="#FFFFFF" opacity="0.8"/>
+  <rect x="780" y="120" width="320" height="390" rx="8" stroke="#E8E4D8" stroke-width="1" fill="none"/>
+  <rect x="930" y="120" width="16" height="390" fill="#E8E0C8"/>
+
+  <!-- Lines on journal -->
+  <line x1="798" y1="180" x2="930" y2="180" stroke="#EAE6D8" stroke-width="1"/>
+  <line x1="798" y1="205" x2="930" y2="205" stroke="#EAE6D8" stroke-width="1"/>
+  <line x1="798" y1="230" x2="930" y2="230" stroke="#EAE6D8" stroke-width="1"/>
+  <line x1="798" y1="255" x2="930" y2="255" stroke="#EAE6D8" stroke-width="1"/>
+  <line x1="798" y1="280" x2="930" y2="280" stroke="#EAE6D8" stroke-width="1"/>
+  <line x1="946" y1="180" x2="1082" y2="180" stroke="#EAE6D8" stroke-width="1"/>
+  <line x1="946" y1="205" x2="1082" y2="205" stroke="#EAE6D8" stroke-width="1"/>
+  <line x1="946" y1="230" x2="1082" y2="230" stroke="#EAE6D8" stroke-width="1"/>
+  <line x1="946" y1="255" x2="1082" y2="255" stroke="#EAE6D8" stroke-width="1"/>
+
+  <!-- Decorative leaves -->
+  <ellipse cx="820" cy="140" rx="12" ry="18" fill="#52B788" opacity="0.7" transform="rotate(-20 820 140)"/>
+  <ellipse cx="845" cy="130" rx="10" ry="15" fill="#40916C" opacity="0.5" transform="rotate(10 845 130)"/>
+  <circle cx="1060" cy="320" r="8" fill="#FDECD5"/>
+  <circle cx="1060" cy="300" r="7" fill="#FDECD5"/>
+  <circle cx="1060" cy="340" r="7" fill="#FDECD5"/>
+  <circle cx="1048" cy="320" r="7" fill="#FDECD5"/>
+  <circle cx="1072" cy="320" r="7" fill="#FDECD5"/>
+  <circle cx="1060" cy="320" r="6" fill="#F4A261" opacity="0.9"/>
+
+  <!-- Main content -->
+  <!-- Brand name -->
+  <text x="100" y="200" font-family="Georgia, serif" font-size="28" font-weight="600" fill="#2D6A4F" letter-spacing="2">JournalFlow.ai</text>
+
+  <!-- Main headline -->
+  <text x="100" y="310" font-family="Georgia, serif" font-size="68" font-weight="700" fill="#1A1A2E">AI Journal</text>
+  <text x="100" y="390" font-family="Georgia, serif" font-size="68" font-weight="700" fill="#2D6A4F">Prompt Generator</text>
+
+  <!-- Subtitle -->
+  <text x="100" y="460" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#4A5568">1,500+ prompts for mental health,</text>
+  <text x="100" y="498" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#4A5568">self-growth, and everyday life.</text>
+
+  <!-- CTA pill -->
+  <rect x="100" y="535" width="260" height="52" rx="26" fill="#2D6A4F"/>
+  <text x="230" y="567" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF" text-anchor="middle">Try free today</text>
+
+  <!-- Bottom domain -->
+  <text x="1100" y="600" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#9CA3AF" text-anchor="end">journalflow.ai</text>
+</svg>

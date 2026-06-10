@@ -10,6 +10,9 @@ therapistNote: "Middle school is a time of enormous identity formation. These pr
 printable: true
 ---
 
+Middle school is genuinely one of the hardest seasons of life — you're figuring out who you are, navigating friendships that feel high-stakes, and dealing with more pressure than anyone gives you credit for. These 100 journal prompts for middle school students are here to give you somewhere to think it all through. They cover everything from identity and friendships to feelings and the future, and they're written to be honest and age-appropriate — not dumbed down, not overwhelming. You don't have to share what you write with anyone. This is just for you.
+
+
 ## Who I Am
 
 1. Describe yourself in 10 words. Now describe yourself in 10 different words — the ones you'd only use with people you really trust.
