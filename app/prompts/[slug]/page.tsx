@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { getPromptPage, getAllPromptMeta, getRelatedPrompts } from '@/lib/mdx'
+import { PromptCardsGrid } from '@/components/PromptCard'
 
 interface Props {
   params: { slug: string }
@@ -211,6 +212,18 @@ export default async function PromptPage({ params }: Props) {
             )}
           </section>
         ))}
+
+        {/* Prompt 卡片展示区 - Pinterest 分享 */}
+        {(() => {
+          const allPrompts = page.sections.flatMap(s => s.prompts)
+          return (
+            <PromptCardsGrid
+              prompts={allPrompts}
+              slug={page.slug}
+              title={page.title}
+            />
+          )
+        })()}
 
         {/* FAQ Section */}
         <section className="mb-12">
