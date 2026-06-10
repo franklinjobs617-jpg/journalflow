@@ -120,6 +120,15 @@ const THEME_CONFIG: Record<string, {
     emoji: '✨',
     label: 'Manifestation',
   },
+  everyday: {
+    bg: 'linear-gradient(160deg, #FFFBF0 0%, #FEF9EC 50%, #FDF3D0 100%)',
+    accent: '#92610A',
+    textColor: '#3D2800',
+    subColor: '#B07D20',
+    decoration: '☕',
+    emoji: '☕',
+    label: 'Everyday Life',
+  },
   fun: {
     bg: 'linear-gradient(160deg, #FFF9EC 0%, #FEF3C7 50%, #FDE68A 100%)',
     accent: '#D97706',

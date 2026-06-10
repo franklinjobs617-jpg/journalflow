@@ -11,6 +11,7 @@ export const metadata: Metadata = {
 }
 
 const TOPICS = [
+  { label: 'Everyday Life', href: '/prompts/everyday', emoji: '☕', desc: '100 prompts', isNew: true },
   { label: 'Just for Fun', href: '/prompts/fun', emoji: '🎉', desc: '100 prompts', isNew: true },
   { label: 'For Beginners', href: '/prompts/beginners', emoji: '✏️', desc: '100 prompts', isNew: true },
   { label: 'For Moms', href: '/prompts/moms', emoji: '🌸', desc: '100 prompts', isNew: true },

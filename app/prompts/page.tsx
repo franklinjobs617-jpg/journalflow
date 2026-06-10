@@ -18,6 +18,7 @@ const TOPIC_EMOJIS: Record<string, string> = {
   'shadow-work': '🌑',
   kids: '🌈',
   'self-love': '💛',
+  everyday: '☕',
   fun: '🎉',
   beginners: '✏️',
   moms: '🌸',
