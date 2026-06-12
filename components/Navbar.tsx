@@ -29,6 +29,13 @@ export default function Navbar() {
             Explore Prompts
           </Link>
           <Link
+            href="/prompts/ai-generated"
+            className="text-sm font-medium transition-colors flex items-center gap-1"
+            style={{ color: 'var(--forest)', fontWeight: 600 }}
+          >
+            <span>✨</span> AI Generator
+          </Link>
+          <Link
             href="/daily"
             className="text-sm font-medium text-gray-600 hover:text-green-700 transition-colors"
           >
@@ -87,6 +94,9 @@ export default function Navbar() {
         <div className="md:hidden bg-white border-t border-green-100 px-4 py-4 flex flex-col gap-4">
           <Link href="/prompts" className="text-sm font-medium text-gray-700" onClick={() => setMenuOpen(false)}>
             Explore Prompts
+          </Link>
+          <Link href="/prompts/ai-generated" className="text-sm font-semibold" style={{ color: 'var(--forest)' }} onClick={() => setMenuOpen(false)}>
+            ✨ AI Generator
           </Link>
           <Link href="/daily" className="text-sm font-medium text-gray-700" onClick={() => setMenuOpen(false)}>
             Daily Prompt

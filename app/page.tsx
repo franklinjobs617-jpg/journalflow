@@ -11,6 +11,7 @@ export const metadata: Metadata = {
 }
 
 const TOPICS = [
+  { label: 'AI Generated', href: '/prompts/ai-generated', emoji: '✨', desc: 'Personalized', isNew: true },
   { label: 'Everyday Life', href: '/prompts/everyday', emoji: '☕', desc: '100 prompts', isNew: true },
   { label: 'Just for Fun', href: '/prompts/fun', emoji: '🎉', desc: '100 prompts', isNew: true },
   { label: 'For Beginners', href: '/prompts/beginners', emoji: '✏️', desc: '100 prompts', isNew: true },
