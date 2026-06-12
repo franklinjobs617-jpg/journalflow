@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Playfair_Display, Inter, Lora } from 'next/font/google'
+import Script from 'next/script'
 import './globals.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
@@ -28,6 +29,8 @@ const lora = Lora({
   display: 'swap',
 })
 
+const GA_ID = 'G-249H4P2LEH'
+
 export const metadata: Metadata = {
   icons: {
     icon: '/favicon.svg',
@@ -35,11 +38,11 @@ export const metadata: Metadata = {
     apple: '/favicon.svg',
   },
   title: {
-    default: 'JournalFlow  -  AI Journal Prompt Generator',
+    default: 'JournalFlow - AI Journal Prompt Generator',
     template: '%s | JournalFlow',
   },
   description:
-    'Generate personalized journal prompts with AI. 1000+ prompts for mental health, self-growth, anxiety, gratitude, and more. Start your journaling journey today.',
+    'Generate personalized journal prompts with AI. 1700+ prompts for mental health, self-growth, anxiety, gratitude, and more. Start your journaling journey today.',
   keywords: [
     'journal prompts',
     'journal prompt generator',
@@ -56,23 +59,24 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://journalflow.ai',
     siteName: 'JournalFlow',
-    title: 'JournalFlow  -  AI Journal Prompt Generator',
+    title: 'JournalFlow - AI Journal Prompt Generator',
     description:
-      'Generate personalized journal prompts with AI. 1000+ prompts for mental health, self-growth, anxiety, gratitude, and more.',
+      'Generate personalized journal prompts with AI. 1700+ prompts for mental health, self-growth, anxiety, gratitude, and more.',
     images: [
       {
         url: '/og-image.svg',
         width: 1200,
         height: 630,
-        alt: 'JournalFlow  -  AI Journal Prompt Generator',
+        alt: 'JournalFlow - AI Journal Prompt Generator',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'JournalFlow  -  AI Journal Prompt Generator',
+    title: 'JournalFlow - AI Journal Prompt Generator',
     description:
       'Generate personalized journal prompts with AI. Start your journaling journey today.',
+    images: ['/og-image.svg'],
   },
   robots: {
     index: true,
@@ -99,6 +103,22 @@ export default function RootLayout({
         <main>{children}</main>
         <Footer />
         <DailyPromptDrawer />
+
+        {/* Google Analytics - afterInteractive ensures no render blocking */}
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_ID}', {
+              page_path: window.location.pathname,
+            });
+          `}
+        </Script>
       </body>
     </html>
   )
