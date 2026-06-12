@@ -46,9 +46,9 @@ const TESTIMONIALS = [
 ]
 
 const EXAMPLE_PROMPT = {
-  mood: 'Reflective',
-  topic: 'Self-Growth',
-  text: "What's one thing you've been carrying lately that you haven't talked about  -  not because it's unspeakable, but because you haven't found the right moment? Write about it now.",
+  mood: 'Playful',
+  topic: 'Just for Fun',
+  text: 'You are the forensic accountant for superheroes. Thor has clearly been misreporting his hammer as a business expense for years. Begin your audit.',
 }
 
 export default function HomePage() {
@@ -65,12 +65,12 @@ export default function HomePage() {
                 AI-Powered Journal Prompts
               </div>
               <h1 className="font-display text-4xl sm:text-5xl font-bold mb-5 leading-tight" style={{ color: 'var(--ink)' }}>
-                The right words,{' '}
-                <span style={{ color: 'var(--forest)' }}>right when you need them</span>
+                Never stare at a{' '}
+                <span style={{ color: 'var(--forest)' }}>blank page again.</span>
               </h1>
               <p className="text-lg text-gray-500 leading-relaxed mb-8">
-                Tell us how you are feeling. We will write a journal prompt that actually meets you there,
-                whether you have 5 minutes or a whole evening.
+                Journal prompts for observation, creativity, and reflection.
+                No blank page. No pressure.
               </p>
               <div className="mb-6">
                 <p className="text-xs font-semibold uppercase tracking-wide mb-3" style={{ color: 'var(--forest)' }}>
@@ -110,7 +110,7 @@ export default function HomePage() {
           </div>
 
           <p className="text-center text-sm text-gray-400 mt-4">
-            3 free AI prompts per day &middot; No account needed &middot;{' '}
+            Free &middot; No signup needed &middot; No feelings required &middot;{' '}
             <Link href="/pricing" style={{ color: 'var(--forest)' }} className="underline underline-offset-2">
               Go Pro for unlimited
             </Link>
@@ -276,9 +276,10 @@ export default function HomePage() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
             {[
               {
-                icon: '🤖',
-                title: 'AI that actually gets it',
-                desc: 'Tell us your mood, your topic, how deep you want to go. The generator writes something specific to that combination, not pulled from a list.',
+                icon: '🎯',
+                title: 'Actually starts you writing',
+
+                desc: 'Pick Playful, Reflective, or Observe Mode. Get a prompt in 10 seconds. No blank page, no setup, no feelings required.',
               },
               {
                 icon: '🧠',
@@ -323,10 +324,10 @@ export default function HomePage() {
       <section className="py-16 px-4 text-center" style={{ background: 'var(--forest)' }}>
         <div className="max-w-xl mx-auto">
           <h2 className="font-display text-3xl font-bold text-white mb-4">
-            3 free prompts a day. Unlimited when you are ready.
+            Never stare at a blank page again.
           </h2>
           <p className="text-green-200 mb-3 leading-relaxed">
-            Start now, no account, no card. When journaling becomes a habit you rely on, Pro is there.
+            Free to start. No account. No feelings required.
           </p>
           <p className="text-green-300 text-sm mb-8 opacity-80">
             Pro members get unlimited AI generation plus a personalized prompt in their inbox every morning.

@@ -209,27 +209,24 @@ export default async function PromptPage({ params }: Props) {
               })}
             </div>
 
-            {/* Mid-content upgrade CTA  -  after section 2 */}
+            {/* Mid-content AI generator CTA */}
             {sectionIdx === 1 && (
               <div
                 className="rounded-xl p-5 mt-8 text-center"
-                style={{ background: 'var(--amber-light)', border: '1px solid var(--amber-warm)' }}
+                style={{ background: 'var(--sage-light)', border: '1px solid var(--sage)' }}
               >
                 <p className="font-semibold text-gray-800 mb-1">
-                  Want a clean PDF of all {page.promptCount} prompts?
+                  Want a prompt tailored to exactly how you feel right now?
                 </p>
-                <p className="text-sm text-gray-500 mb-1">
-                  Print it. Keep it in your journal. Share it with clients or students.
-                </p>
-                <p className="text-xs text-gray-400 mb-3">
-                  Use the Download PDF button at the top of this page  -  it works in any browser.
+                <p className="text-sm text-gray-500 mb-3">
+                  The AI generator writes one for your specific mood, topic, and depth. Free, no signup.
                 </p>
                 <Link
-                  href="/pricing"
+                  href="/#generator"
                   className="inline-block text-sm font-semibold px-5 py-2 rounded-full text-white"
                   style={{ background: 'var(--forest)' }}
                 >
-                  Get Pro for unlimited downloads →
+                  Generate a personalized prompt
                 </Link>
               </div>
             )}

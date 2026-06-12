@@ -83,11 +83,11 @@ export default function AIGeneratedPage() {
           AI Journal Prompt Generator
         </div>
         <h1 className="font-display text-4xl sm:text-5xl font-bold mb-4 leading-tight" style={{ color: 'var(--ink)' }}>
-          AI Journal Prompts<br />
-          <span style={{ color: 'var(--forest)' }}>Built for You, Not Everyone</span>
+          AI prompts that don't make you<br />
+          <span style={{ color: 'var(--forest)' }}>process your childhood.</span>
         </h1>
         <p className="text-lg text-gray-500 leading-relaxed mb-6">
-          Every AI journal prompt on JournalFlow is generated specifically for your current mood, topic, and how deep you want to go. Not pulled from a list. Not the same for everyone. Written for you, right now.
+          Pick your vibe. Get a prompt. Actually start writing. No therapy speak, no gratitude lists, no pressure to feel things you don't feel right now.
         </p>
         <div className="flex flex-wrap gap-3 text-sm text-gray-500">
           <span className="flex items-center gap-1.5">

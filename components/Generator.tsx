@@ -4,23 +4,23 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 
 const MOODS = [
-  { value: 'anxious', label: '😟 Anxious', desc: 'Worried or overwhelmed' },
-  { value: 'grateful', label: '🙏 Grateful', desc: 'Appreciative and warm' },
-  { value: 'stuck', label: '😶 Stuck', desc: 'Lost or unclear' },
-  { value: 'reflective', label: '🌙 Reflective', desc: 'Thoughtful and calm' },
-  { value: 'motivated', label: '🔥 Motivated', desc: 'Ready to grow' },
   { value: 'playful', label: '😄 Playful', desc: 'Light and fun, no pressure' },
+  { value: 'motivated', label: '🔥 Motivated', desc: 'Ready to grow' },
+  { value: 'grateful', label: '🙏 Grateful', desc: 'Appreciative and warm' },
+  { value: 'reflective', label: '🌙 Reflective', desc: 'Thoughtful and calm' },
+  { value: 'anxious', label: '😟 Anxious', desc: 'Worried or overwhelmed' },
+  { value: 'stuck', label: '😶 Stuck', desc: 'Lost or unclear' },
 ]
 
 const TOPICS = [
-  { value: 'mental health', label: '🧠 Mental Health' },
-  { value: 'self-growth', label: '🌱 Self-Growth' },
-  { value: 'relationships', label: '💛 Relationships' },
-  { value: 'creativity', label: '✨ Creativity' },
-  { value: 'work and purpose', label: '🎯 Work & Purpose' },
-  { value: 'gratitude and joy', label: '☀️ Gratitude' },
   { value: 'fun and everyday life', label: '🎉 Just for Fun' },
+  { value: 'creativity', label: '✨ Creativity' },
+  { value: 'relationships', label: '💛 Relationships' },
+  { value: 'self-growth', label: '🌱 Self-Growth' },
+  { value: 'gratitude and joy', label: '☀️ Gratitude' },
+  { value: 'mental health', label: '🧠 Mental Health' },
   { value: 'parenting and family', label: '👨‍👩‍👧 Parenting' },
+  { value: 'work and purpose', label: '🎯 Work & Purpose' },
 ]
 
 const AGE_GROUPS = [
@@ -112,8 +112,8 @@ function saveNote(id: string, note: string): void {
 }
 
 export default function Generator() {
-  const [mood, setMood] = useState('reflective')
-  const [topic, setTopic] = useState('self-growth')
+  const [mood, setMood] = useState('playful')
+  const [topic, setTopic] = useState('fun and everyday life')
   const [ageGroup, setAgeGroup] = useState('adult')
   const [depth, setDepth] = useState('deep')
 
