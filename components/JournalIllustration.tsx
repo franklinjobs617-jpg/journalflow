@@ -64,7 +64,7 @@ export default function JournalIllustration() {
           fill="#6B7280"
           fontStyle="italic"
         >
-          Monday, June 9
+          Just write.
         </text>
 
         {/* */}
@@ -94,7 +94,7 @@ export default function JournalIllustration() {
           fill="#2D6A4F"
           fontWeight="600"
         >
-          Gratitude
+          Observe
         </text>
 
         {/* */}
