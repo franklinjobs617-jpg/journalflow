@@ -36,6 +36,13 @@ const DEPTHS = [
 
 const FREE_HISTORY_LIMIT = 20
 
+const LOADING_MESSAGES = [
+  'Finding the right words for you...',
+  'Reading between the lines of your mood...',
+  'Thinking about what you actually need right now...',
+  'Almost there - making sure it feels right...',
+]
+
 interface HistoryItem {
   id: string
   prompt: string
@@ -120,6 +127,7 @@ export default function Generator() {
   const [streak, setStreak] = useState(0)
   const [showHistory, setShowHistory] = useState(false)
   const [history, setHistory] = useState<HistoryItem[]>([])
+  const [loadingMsg, setLoadingMsg] = useState(0)
 
   const [writingId, setWritingId] = useState<string | null>(null)
   const [noteText, setNoteText] = useState('')
@@ -129,6 +137,14 @@ export default function Generator() {
     setStreak(getStreak())
     setHistory(getHistory())
   }, [])
+
+  useEffect(() => {
+    if (!loading) { setLoadingMsg(0); return }
+    const interval = setInterval(() => {
+      setLoadingMsg(prev => (prev + 1) % LOADING_MESSAGES.length)
+    }, 1800)
+    return () => clearInterval(interval)
+  }, [loading])
 
   async function handleGenerate() {
     setLoading(true)
@@ -407,9 +423,24 @@ export default function Generator() {
       {(result || loading) && (
         <div className="paper-card rounded-2xl p-6 mb-4">
           {loading && !result ? (
-            <div className="flex items-center gap-3 text-gray-400">
-              <span className="text-sm italic">Finding the right words for you</span>
-              <span className="cursor-blink" />
+            <div className="py-2">
+              <div className="flex items-center gap-3 text-gray-500 mb-3">
+                <svg className="animate-spin h-4 w-4 shrink-0" style={{ color: 'var(--forest)' }} viewBox="0 0 24 24" fill="none">
+                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"/>
+                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z"/>
+                </svg>
+                <span className="text-sm italic transition-all">{LOADING_MESSAGES[loadingMsg]}</span>
+              </div>
+              <div className="w-full bg-green-100 rounded-full h-1">
+                <div
+                  className="h-1 rounded-full"
+                  style={{
+                    background: 'var(--forest)',
+                    width: `${25 + loadingMsg * 25}%`,
+                    transition: 'width 1.8s ease-in-out',
+                  }}
+                />
+              </div>
             </div>
           ) : (
             <>
