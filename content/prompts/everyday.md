@@ -4,7 +4,7 @@ slug: "everyday"
 description: "100 everyday journal prompts inspired by Murakami journaling - observational, sensory, low-stakes writing about the small details of daily life. No emotional excavation required."
 keywords: ["everyday journal prompts", "murakami journaling prompts", "observational journal prompts", "low stakes journal prompts", "lighthearted journal prompts", "daily life journal prompts"]
 category: "self-growth"
-promptCount: 100
+promptCount: 150
 relatedSlugs: ["fun", "morning", "gratitude", "beginners"]
 therapistNote: "Not every journal entry needs to go deep. Observational journaling - simply describing what you notice around you - is a legitimate and powerful practice. It builds presence, sharpens attention, and often reveals more about how you see the world than any introspective prompt."
 ---
@@ -122,3 +122,63 @@ Not all journaling has to be about your feelings. Sometimes the most interesting
 98. Write about an animal you encountered today or recently, even if it was just a pigeon.
 99. What ordinary thing did you do today that someone a hundred years ago would have found remarkable?
 100. Write one true sentence about today. Then another. Then keep going until you have described the whole day in true, specific, unchosen sentences.
+
+## Color Observation Journal Prompts
+
+Pick one color today. Spend the day noticing it. These prompts turn that simple practice into something worth writing about.
+
+101. Choose a color - any color - and write down every single thing you saw today that was that color. Include what shade it actually was when you looked closely.
+102. Pick a color you think you know well. Describe three things that color that were not quite the color you expected when you really looked at them.
+103. What is the most interesting version of one color you saw today? Not the most vivid - the most interesting. What made it that particular shade?
+104. Write about something you saw today that you would have called one color but which was actually made up of several. What were they?
+105. Describe the light in the room you are in right now in terms of color - not just "yellow" but all the colors the light is making on different surfaces.
+106. What color appeared the most times in your day today? List every place you saw it.
+107. Find the most worn, faded version of a color in your environment. Describe what the original color probably was, and what it is now.
+108. Write about a color combination you noticed today that you would not have expected to work together but did.
+109. What color did you wear today, and where else did that color show up in your environment without you planning it?
+110. Describe the sky today using only colors - no words like "cloudy" or "clear." Just the actual colors you can see.
+111. Write about a color you love and three specific things you saw today that were that color. What was different about each of them?
+112. What is the strangest color you noticed today? Something that made you look twice because the color was unexpected.
+113. Describe the shadows in your environment right now. What color are they actually? Most people say grey or black but look again.
+114. Write about a color that looked completely different at different times of day today. What changed it?
+115. Find something near you that is supposed to be white. Describe its actual color.
+116. What color felt the most calming today? Describe exactly where you saw it and what it looked like.
+117. Write about a color you noticed in nature today - on a plant, bird, rock, or sky - that you cannot quite name. Describe it without naming it.
+118. Describe the colors in your kitchen right now as if you were a painter trying to recreate them exactly.
+119. What color have you never really noticed in your daily environment until today?
+120. Write about the most beautiful color you saw this week. Where was it, what time of day, and what made it that particular version of itself?
+121. Notice the color of water somewhere today - in a glass, a puddle, through a bottle. Write about what you actually see.
+122. What color keeps appearing in things you own without you having planned it? What does that say about what you are drawn to?
+123. Write about a color that you associate with a strong memory. Did you see that color today? If so, did it bring anything back?
+124. Describe the colors of your neighborhood at the time of day you walked through it most recently.
+125. Write about a color that is hard to describe without comparing it to something else. Try to describe it without any comparisons.
+
+## Five Senses Journal Prompts
+
+One smell. One sound. One thing that caught your eye. One texture. One taste. These prompts use the structure of your senses to anchor you to a specific moment in a specific day.
+
+126. Write down one smell from today, one sound, one thing that caught your eye, something you touched or that touched you, and something you tasted. Just the five things, in as much detail as you can give each one.
+127. What was the most distinctive smell of your day today? Describe it without naming it - just what it actually smelled like.
+128. Close your eyes and listen for thirty seconds. Write down every sound you can hear, from the loudest to the quietest, including ones you normally filter out.
+129. What did you touch today that had an interesting texture? Something you handled without thinking about it. Describe exactly what it felt like.
+130. What was the last thing you tasted that you actually paid attention to? Describe it in as much sensory detail as you can.
+131. Write about a sound you heard today that you have never written about before. Something ordinary that you normally do not notice.
+132. What physical sensation did you feel today that you would not normally register? The weight of something, the temperature of a surface, the pressure of sitting in a particular chair.
+133. Describe a smell from your morning that you have stopped noticing because it is so familiar. What does it actually smell like?
+134. Write about the most visually interesting two-second moment of your day - something you saw that lasted only a moment before it changed or you moved on.
+135. What sound are you so used to that you would notice its absence more than its presence? Describe it.
+136. Write about something you touched today that was warmer or cooler than you expected.
+137. Describe the taste of something ordinary you ate today as if you were tasting it for the first time.
+138. What was the quietest moment of your day? What sounds existed even in that quiet?
+139. Write about a texture you encountered today that you found satisfying. What made it satisfying?
+140. Describe your body's physical experience of the temperature today - not just hot or cold, but where you felt it, how it changed, what it reminded you of.
+141. What smell from today do you want to remember in ten years? Describe it so that future you can almost smell it.
+142. Write about a visual detail you almost missed today - something small you caught at the edge of your attention.
+143. Describe the ambient sound of wherever you are right now as if you were a sound designer trying to recreate it exactly.
+144. What physical sensation do you associate with a moment of genuine comfort today? Where in your body did you feel it?
+145. Write about the most complex taste you had today. Not the best - the most layered or interesting.
+146. What did you hear today that made you stop, even just for a second?
+147. Describe the feeling of whatever you are wearing right now - fabric weight, temperature, where it fits close and where it does not.
+148. Write about a smell that arrived unexpectedly today. Where did it come from? What did it remind you of, if anything?
+149. What visual thing from today would be hardest to describe to someone who was not there? Describe it anyway.
+150. At the end of today, write one sentence for each sense: the most memorable smell, sound, sight, touch, and taste of the day. Just five sentences, as specific as possible.
