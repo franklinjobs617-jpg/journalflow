@@ -6,11 +6,11 @@ keywords: ["journal prompts for kids", "kids journal prompts", "journaling promp
 category: "education"
 promptCount: 100
 relatedSlugs: ["morning"]
-therapistNote: "Journaling helps children develop emotional vocabulary, process experiences, and build confidence in self-expression. These prompts are designed to be fun, not therapeutic — just a safe space to think and write."
+therapistNote: "Journaling helps children develop emotional vocabulary, process experiences, and build confidence in self-expression. These prompts are designed to be fun, not therapeutic  -  just a safe space to think and write."
 printable: true
 ---
 
-Journaling helps kids develop something that matters far beyond writing skills: the ability to notice and name what's happening inside them. These 100 journal prompts for kids are designed for children ages 6–12 and cover the full range of a child's inner world — from imagination and creativity to friendships, feelings, and what they're proud of. The prompts are written to be genuinely fun and age-appropriate, not therapeutic or heavy. They're perfect for classroom journaling, homeschool writing practice, or a daily habit at home. Teachers will find them easy to use as morning warm-ups or creative writing starters. Parents can use them as conversation-starters over dinner. There are no wrong answers here — just a safe, encouraging space for kids to find their voice.
+Journaling helps kids develop something that matters far beyond writing skills: the ability to notice and name what's happening inside them. These 100 journal prompts for kids are designed for children ages 6-12 and cover the full range of a child's inner world  -  from imagination and creativity to friendships, feelings, and what they're proud of. The prompts are written to be genuinely fun and age-appropriate, not therapeutic or heavy. They're perfect for classroom journaling, homeschool writing practice, or a daily habit at home. Teachers will find them easy to use as morning warm-ups or creative writing starters. Parents can use them as conversation-starters over dinner. There are no wrong answers here  -  just a safe, encouraging space for kids to find their voice.
 
 ## Journal Prompts for Kids: All About Me
 
@@ -79,7 +79,7 @@ Journaling helps kids develop something that matters far beyond writing skills: 
 57. You just became the mayor of your town for one day. What's the first thing you change?
 58. Invent a new ice cream flavor. What's in it, and what's it called?
 59. If you could have a conversation with your favorite book character, what would you ask them?
-60. Write about a day where everything went completely backward — you slept at school and learned at home.
+60. Write about a day where everything went completely backward  -  you slept at school and learned at home.
 61. If you could build the most amazing fort ever, what would it look like inside?
 62. Imagine you woke up and could fly. Write about your first hour.
 63. If you could give every person in the world one thing, what would you give them?
@@ -107,7 +107,7 @@ Journaling helps kids develop something that matters far beyond writing skills: 
 82. What's something your family does that you hope you'll always remember?
 83. Write about a place you've visited that you really liked. What made it special?
 84. What's something about your school that makes you proud?
-85. Write about someone in your family — a grandparent, a sibling, an aunt or uncle — and something you love about them.
+85. Write about someone in your family  -  a grandparent, a sibling, an aunt or uncle  -  and something you love about them.
 86. What's your favorite thing about your town or city?
 87. Write about a moment from this week that you want to remember.
 88. What's something your family is really good at doing together?

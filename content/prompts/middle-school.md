@@ -6,22 +6,22 @@ keywords: ["journal prompts for middle school", "middle school journal prompts",
 category: "education"
 promptCount: 100
 relatedSlugs: ["kids", "high-school"]
-therapistNote: "Middle school is a time of enormous identity formation. These prompts create space for students to explore who they are without judgment — which is exactly what they need."
+therapistNote: "Middle school is a time of enormous identity formation. These prompts create space for students to explore who they are without judgment  -  which is exactly what they need."
 printable: true
 ---
 
-Middle school is genuinely one of the hardest seasons of life — you're figuring out who you are, navigating friendships that feel high-stakes, and dealing with more pressure than anyone gives you credit for. These 100 journal prompts for middle school students are here to give you somewhere to think it all through. They cover everything from identity and friendships to feelings and the future, and they're written to be honest and age-appropriate — not dumbed down, not overwhelming. You don't have to share what you write with anyone. This is just for you.
+Middle school is genuinely one of the hardest seasons of life  -  you're figuring out who you are, navigating friendships that feel high-stakes, and dealing with more pressure than anyone gives you credit for. These 100 journal prompts for middle school students are here to give you somewhere to think it all through. They cover everything from identity and friendships to feelings and the future, and they're written to be honest and age-appropriate  -  not dumbed down, not overwhelming. You don't have to share what you write with anyone. This is just for you.
 
 
 ## Who I Am
 
-1. Describe yourself in 10 words. Now describe yourself in 10 different words — the ones you'd only use with people you really trust.
+1. Describe yourself in 10 words. Now describe yourself in 10 different words  -  the ones you'd only use with people you really trust.
 2. What's something you believe that most people your age don't?
 3. What's a quality about yourself that you're still figuring out how to feel about?
 4. If you could change one thing about yourself and one thing about the world, what would each be?
 5. What's something you were interested in two years ago that you've outgrown?
 6. What's something new you've gotten interested in recently that surprised you?
-7. What do you think makes a person genuinely cool — not popular, but actually cool?
+7. What do you think makes a person genuinely cool  -  not popular, but actually cool?
 8. When do you feel most like yourself?
 9. What's a label people put on you that doesn't feel accurate?
 10. What's something you're good at that you've never told anyone?
@@ -32,9 +32,9 @@ Middle school is genuinely one of the hardest seasons of life — you're figurin
 15. What's something about being your age that you actually like?
 16. What's something about being your age that's genuinely hard?
 17. Who were you in elementary school? How is that person different from who you are now?
-18. What's a value — something you care about — that you want to define how you live?
+18. What's a value  -  something you care about  -  that you want to define how you live?
 19. What would you do this week if you completely stopped caring what people thought?
-20. What does success mean to you — not to your parents or teachers, but to you?
+20. What does success mean to you  -  not to your parents or teachers, but to you?
 21. If you could send a message to your 10-year-old self, what would you say?
 22. What do you want people to remember about you?
 23. What are you most proud of about yourself?
@@ -45,24 +45,24 @@ Middle school is genuinely one of the hardest seasons of life — you're figurin
 
 26. What makes someone a good friend? Does your current friend group match that?
 27. Write about a friendship that's changed this year. What happened?
-28. Have you ever felt left out? Write about it — what happened and how it felt.
+28. Have you ever felt left out? Write about it  -  what happened and how it felt.
 29. What's the difference between a friend and a good friend?
 30. Is there anyone you've drifted apart from that you miss? What would you say to them if you could?
 31. Write about a time someone was unexpectedly kind to you at school.
 32. Have you ever done something to fit in that didn't feel right? What happened?
 33. What kind of friend are you? Be honest.
-34. Write about a conflict with a friend — what happened, how you handled it, what you'd do differently.
+34. Write about a conflict with a friend  -  what happened, how you handled it, what you'd do differently.
 35. What's something you wish you could say to someone at school but haven't?
 36. What does it feel like to be around people who really get you?
 37. Is there someone at your school who seems lonely or left out? Have you thought about talking to them?
 38. What's the social pressure you feel most at school right now?
 39. How do you act differently around different groups of people? Why?
-40. Write about a moment when you stood up for someone — or wish you had.
+40. Write about a moment when you stood up for someone  -  or wish you had.
 41. What do you think about social media and how it affects friendships?
 42. Is there a friendship that feels one-sided? How do you feel about it?
 43. What's something you've never told your best friend that maybe you should?
 44. What does loyalty mean to you in a friendship?
-45. Write about a time a friend surprised you — in a good way or a hard way.
+45. Write about a time a friend surprised you  -  in a good way or a hard way.
 46. What's something you appreciate about your friend group that you don't say enough?
 47. Write about a time you were a good friend. What did you do?
 48. What's one thing you'd change about your social life right now if you could?
@@ -73,7 +73,7 @@ Middle school is genuinely one of the hardest seasons of life — you're figurin
 
 51. What's stressing you out the most right now? Just name it.
 52. Write about a time you felt really misunderstood. What did you actually want people to know?
-53. What does anxiety feel like for you — where do you feel it, what does it make you do?
+53. What does anxiety feel like for you  -  where do you feel it, what does it make you do?
 54. Is there something you're angry about that you haven't let yourself fully feel?
 55. Write about a time you felt embarrassed. Looking back, how do you feel about it now?
 56. What do you do when you're having a really hard day?
@@ -81,9 +81,9 @@ Middle school is genuinely one of the hardest seasons of life — you're figurin
 58. Write about a time you felt proud of how you handled something hard.
 59. What's something at school that feels unfair? How do you deal with that?
 60. Write about a time you felt really understood by someone. What made that possible?
-61. What does it feel like when you're happy — really, genuinely happy?
+61. What does it feel like when you're happy  -  really, genuinely happy?
 62. Is there a feeling you have that you don't have a word for? Describe it.
-63. Write about something you're grieving — a friendship, a phase of your life, something that changed.
+63. Write about something you're grieving  -  a friendship, a phase of your life, something that changed.
 64. What do you do to calm down when you're overwhelmed?
 65. Write about a fear you have. How much space does it take up in your life?
 66. Is there something you feel guilty about? What would it look like to let it go?
@@ -96,7 +96,7 @@ Middle school is genuinely one of the hardest seasons of life — you're figurin
 
 71. What's a class or subject you actually enjoy? What makes it work for you?
 72. Write about a teacher who has made a difference for you. What did they do?
-73. What kind of learner are you — how do you learn best?
+73. What kind of learner are you  -  how do you learn best?
 74. What's something school has taught you that has nothing to do with the curriculum?
 75. What's a goal you have for this school year?
 76. What do you think you want to do after high school? What's pulling you in that direction?
@@ -106,13 +106,13 @@ Middle school is genuinely one of the hardest seasons of life — you're figurin
 80. What's something you've worked hard at that paid off?
 81. What subject or skill do you wish school actually taught?
 82. Is there something you want to get better at? What would that take?
-83. What's your relationship with grades — do they motivate you, stress you out, both?
+83. What's your relationship with grades  -  do they motivate you, stress you out, both?
 84. Write about a moment when learning something clicked for you. What happened?
 85. What do you think the world needs more of? Is there a way you could contribute to that?
 86. What's a problem in the world that you think about? What would you do about it if you could?
-87. Write about someone you admire — a real person, not a celebrity — and what they do that you respect.
+87. Write about someone you admire  -  a real person, not a celebrity  -  and what they do that you respect.
 88. What's a skill you have right now that you think will matter in your future?
-89. What does a good life look like to you — at 25, at 40, at 70?
+89. What does a good life look like to you  -  at 25, at 40, at 70?
 90. What's something you're curious about that you'd love to learn more about?
 
 ## Reflection & Growth
@@ -126,4 +126,4 @@ Middle school is genuinely one of the hardest seasons of life — you're figurin
 97. Write about someone who has shaped who you are, without realizing it.
 98. What's one thing you want to do differently this month?
 99. Write a letter to the version of yourself from one year ago. What do they need to know?
-100. What's one thing you want to remember about this time in your life — the real, honest version of it?
+100. What's one thing you want to remember about this time in your life  -  the real, honest version of it?

@@ -19,6 +19,23 @@ When writing prompts:
 - Write as if you genuinely care about this specific person's growth`
 
 function buildUserMessage(params: GeneratePromptParams): string {
+  if (params.depth === 'observe') {
+    return `Generate a single Observe Mode journal prompt. Rules:
+- Ask the writer to describe or notice something in their immediate physical environment
+- Focus only on sensory details: what they see, hear, smell, touch, or taste RIGHT NOW
+- Do NOT include: feel, feeling, emotion, reflect, discover, deeper, meaningful, grow, grateful, anxiety, inner, soul, heart
+- Be specific and grounded in the physical world
+- One to two sentences maximum
+- Sound interesting and precise, not vague
+
+Good examples:
+- Describe the light in the room you are in right now. Where is it coming from? What does it land on?
+- What can you hear right now? List every sound from loudest to quietest, including ones you normally ignore.
+- Your drink right now: temperature, color, the exact moment you first tasted it today.
+
+Return ONLY the prompt itself. No introduction or explanation.`
+  }
+
   const depthGuide =
     params.depth === 'quick'
       ? 'Keep it brief and accessible  -  something they can answer in 5 minutes.'

@@ -32,6 +32,7 @@ const AGE_GROUPS = [
 const DEPTHS = [
   { value: 'quick', label: '⚡ Quick (5 min)', desc: 'A light check-in' },
   { value: 'deep', label: '🌊 Deep Dive (15+ min)', desc: 'Real reflection' },
+  { value: 'observe', label: '🍵 Observe Mode', desc: 'No feelings required' },
 ]
 
 const FREE_HISTORY_LIMIT = 20
@@ -373,8 +374,8 @@ export default function Generator() {
                 <button key={d.value} onClick={() => setDepth(d.value)}
                   className="px-3 py-2 rounded-lg text-sm font-medium border text-left transition-all"
                   style={depth === d.value
-                    ? { background: 'var(--sage-light)', color: 'var(--forest-dark)', borderColor: 'var(--sage)' }
-                    : { background: '#fff', color: '#4B5563', borderColor: '#D1FAE5' }}>
+                    ? { background: d.value === 'observe' ? '#1A3A2E' : 'var(--sage-light)', color: d.value === 'observe' ? '#fff' : 'var(--forest-dark)', borderColor: d.value === 'observe' ? '#1A3A2E' : 'var(--sage)' }
+                    : { background: '#fff', color: '#4B5563', borderColor: d.value === 'observe' ? '#95D5B2' : '#D1FAE5' }}>
                   <div>{d.label}</div>
                   <div className="text-xs font-normal opacity-70 mt-0.5">{d.desc}</div>
                 </button>

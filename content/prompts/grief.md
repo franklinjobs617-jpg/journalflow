@@ -1,15 +1,15 @@
 ---
 title: "Journal Prompts for Grief"
 slug: "grief"
-description: "100 journal prompts for grief — for processing loss, honoring what's gone, and finding your way through. For anyone who has loved and lost, in any form."
+description: "100 journal prompts for grief  -  for processing loss, honoring what's gone, and finding your way through. For anyone who has loved and lost, in any form."
 keywords: ["journal prompts for grief", "grief journal prompts", "journaling for grief", "loss journal prompts", "bereavement journal prompts"]
 category: "mental-health"
 promptCount: 100
 relatedSlugs: ["mental-health", "anxiety", "self-love", "therapy"]
-therapistNote: "Grief doesn't move in a straight line, and these prompts aren't designed to fix anything. They're designed to give your grief somewhere to go. Write at your own pace. Skip anything that doesn't feel right today — it might feel right later."
+therapistNote: "Grief doesn't move in a straight line, and these prompts aren't designed to fix anything. They're designed to give your grief somewhere to go. Write at your own pace. Skip anything that doesn't feel right today  -  it might feel right later."
 ---
 
-Grief is not a problem to solve. It's a process to move through — slowly, unevenly, and in your own time. These 100 journal prompts for grief are designed to give your loss somewhere to land, to help you say the things that are hardest to say out loud, and to make a little more room inside you for what you're carrying. They're for the loss of a person, yes, but also for the loss of a relationship, a version of yourself, a dream, a future you'd imagined. Loss comes in many forms. Whatever yours is, it belongs here.
+Grief is not a problem to solve. It's a process to move through  -  slowly, unevenly, and in your own time. These 100 journal prompts for grief are designed to give your loss somewhere to land, to help you say the things that are hardest to say out loud, and to make a little more room inside you for what you're carrying. They're for the loss of a person, yes, but also for the loss of a relationship, a version of yourself, a dream, a future you'd imagined. Loss comes in many forms. Whatever yours is, it belongs here.
 
 ## Journal Prompts for Grief: Early Days
 
@@ -24,7 +24,7 @@ Grief is not a problem to solve. It's a process to move through — slowly, unev
 9. What's something you're afraid to feel about this loss?
 10. What do you need right now that you're not getting?
 11. Write about a moment this week when the grief hit you unexpectedly.
-12. What's something you're holding onto — an object, a memory, a habit — because it feels like holding onto them?
+12. What's something you're holding onto  -  an object, a memory, a habit  -  because it feels like holding onto them?
 13. What does a hard hour look like for you right now? Walk me through it.
 14. What do you wish people understood about what you're going through?
 15. Write about what home feels like now, if it feels different.
@@ -36,10 +36,10 @@ Grief is not a problem to solve. It's a process to move through — slowly, unev
 
 ## Grief Journal Prompts for Honoring Your Loss
 
-21. Write about who or what you lost. Not just the facts — the texture of them.
+21. Write about who or what you lost. Not just the facts  -  the texture of them.
 22. What's something about them (or it) that most people didn't know?
 23. What's your favorite memory? Describe it in as much detail as you can.
-24. What's something they taught you — explicitly or just by being who they were?
+24. What's something they taught you  -  explicitly or just by being who they were?
 25. What made them laugh? What made them them?
 26. Write about a moment that perfectly captures who they were to you.
 27. What's something you loved about them that drove you crazy too?
@@ -50,8 +50,8 @@ Grief is not a problem to solve. It's a process to move through — slowly, unev
 32. Write about what they meant to you in a way you've never quite put into words before.
 33. What would they say if they could see you right now?
 34. What's something they were proud of about you?
-35. Write about what a regular, ordinary day with them was like. Not a special one — just a Tuesday.
-36. What's a part of you that came from them — a value, a habit, a way of seeing the world?
+35. Write about what a regular, ordinary day with them was like. Not a special one  -  just a Tuesday.
+36. What's a part of you that came from them  -  a value, a habit, a way of seeing the world?
 37. What did you admire about them?
 38. Write about a time they showed up for you when you needed it.
 39. What's something you never got to say? Say it here.
@@ -66,16 +66,16 @@ Grief is not a problem to solve. It's a process to move through — slowly, unev
 45. What's something you've learned about yourself through this grief?
 46. Write about a moment when you laughed or felt joy recently. Did it feel okay, or did it feel wrong?
 47. What's something you've had to figure out how to do alone that you used to do with them?
-48. What does your relationship with time feel like right now — too fast, too slow, both?
+48. What does your relationship with time feel like right now  -  too fast, too slow, both?
 49. Write about a ritual or habit that helps you feel connected to what you've lost.
 50. What's something you've been putting off because it feels like it means accepting the loss?
 51. What are you afraid the grief will turn into if you let yourself feel it fully?
 52. Write about the difference between the person you were before this loss and who you are now.
 53. What's something you've discovered you're stronger than you thought?
 54. What do you want your relationship with this grief to look like in a year?
-55. Write about what healing looks like to you — not being over it, but carrying it differently.
+55. Write about what healing looks like to you  -  not being over it, but carrying it differently.
 56. What's something this loss has clarified for you about what matters?
-57. Who has surprised you in this grief — someone who showed up when you didn't expect it?
+57. Who has surprised you in this grief  -  someone who showed up when you didn't expect it?
 58. What would it mean to honor this loss in how you live going forward?
 59. Write about a moment when you felt something other than grief this week. What was it?
 60. What's one thing you're holding onto right now that you're not ready to let go of?
@@ -87,20 +87,20 @@ Grief is not a problem to solve. It's a process to move through — slowly, unev
 63. Is there relief mixed into your grief? Is that hard to admit?
 64. Write about any guilt you're carrying. Is it yours to carry?
 65. What's something left unresolved that you wish could have been different?
-66. Write about what forgiveness means in the context of this loss — of them, of yourself, of how things ended.
+66. Write about what forgiveness means in the context of this loss  -  of them, of yourself, of how things ended.
 67. What's something you're grieving about the relationship itself, not just the loss of it?
 68. Write about the gap between what you wish had been said and what was actually said.
 69. What would you want them to know about where you are now?
 70. Write about what "making peace" with this loss would look like. Does it feel possible?
 71. What's a part of this grief that you haven't let yourself fully feel?
-72. Write about what you're grieving beyond the obvious loss — the future you'd imagined, the relationship you'd hoped for, the version of yourself that existed before.
+72. Write about what you're grieving beyond the obvious loss  -  the future you'd imagined, the relationship you'd hoped for, the version of yourself that existed before.
 73. What's something this loss has made you question about the way you've been living?
-74. Write about what you needed that you didn't get — from them, from others, from yourself.
+74. Write about what you needed that you didn't get  -  from them, from others, from yourself.
 75. What does self-compassion look like when you're grieving something complicated?
 
 ## Grief Journaling Prompts for Healing
 
-76. What does a good day look like right now? Not great — just good.
+76. What does a good day look like right now? Not great  -  just good.
 77. What's something small that's been a source of comfort?
 78. Write about someone who is walking through this with you. What do they do that helps?
 79. What's a moment recently when you felt like yourself, even briefly?
@@ -110,7 +110,7 @@ Grief is not a problem to solve. It's a process to move through — slowly, unev
 83. Write about a place where you feel safe to grieve.
 84. What's something you've started doing, or stopped doing, that has helped?
 85. Write about what it means to carry someone with you after they're gone.
-86. What's a piece of wisdom — something you've learned from this loss — that you want to hold onto?
+86. What's a piece of wisdom  -  something you've learned from this loss  -  that you want to hold onto?
 87. Write about a moment when grief and gratitude showed up at the same time.
 88. What's something beautiful that's still in your life right now?
 89. Write about what hope feels like right now, if it feels like anything at all.
@@ -121,7 +121,7 @@ Grief is not a problem to solve. It's a process to move through — slowly, unev
 94. What does resilience feel like from the inside, when you're in the middle of needing it?
 95. Write about a moment when you knew you were going to be okay, even if you're still not sure.
 96. What's something you've kept that belonged to them or represented what you've lost? Why that thing?
-97. Write about what it means to let grief change you — not break you, but change you.
+97. Write about what it means to let grief change you  -  not break you, but change you.
 98. What would your lost person, relationship, or former self want for you now?
 99. Write about the love underneath the grief. What does that love feel like?
 100. What do you want to carry forward from this loss into the rest of your life?
