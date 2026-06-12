@@ -29,6 +29,11 @@ const lora = Lora({
 })
 
 export const metadata: Metadata = {
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
   title: {
     default: 'JournalFlow  -  AI Journal Prompt Generator',
     template: '%s | JournalFlow',
