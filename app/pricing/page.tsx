@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import CheckoutButton from '@/components/CheckoutButton'
 
 export const metadata: Metadata = {
   title: 'Pricing  -  JournalFlow Pro',
@@ -177,15 +178,14 @@ export default function PricingPage() {
             ))}
           </ul>
           <div className="flex flex-col gap-2">
-            <Link
-              href="mailto:hello@journalflow.ai?subject=Pro%20Access%20Waitlist"
-              className="block text-center py-3 rounded-full text-sm font-semibold bg-white transition-opacity hover:opacity-90"
+            <CheckoutButton
+              className="block w-full text-center py-3 rounded-full text-sm font-semibold bg-white transition-opacity hover:opacity-90 disabled:opacity-60 cursor-pointer"
               style={{ color: 'var(--forest)' }}
             >
-              Join Waitlist  -  Get Early Access
-            </Link>
+              Get Pro - $9.9/month
+            </CheckoutButton>
             <p className="text-center text-xs text-green-200 mt-1">
-              Launching soon · Early members get 30% off forever
+              Cancel anytime - 7-day money back guarantee
             </p>
           </div>
         </div>
